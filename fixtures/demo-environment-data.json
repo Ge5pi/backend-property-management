@@ -1,0 +1,5815 @@
+[
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 1,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "UTC"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2024-02-06T10:18:41.978Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 1,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": "2023-12-17T04:00:00.003Z",
+        "total_run_count": 17,
+        "date_changed": "2023-12-17T04:01:40.320Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_results.taskresult",
+    "pk": 8,
+    "fields": {
+        "task_id": "4ecbadf1-e6f5-4964-b641-1f2b259312fb",
+        "periodic_task_name": "celery.backend_cleanup",
+        "task_name": "celery.backend_cleanup",
+        "task_args": "\"()\"",
+        "task_kwargs": "\"{}\"",
+        "status": "SUCCESS",
+        "worker": "celery@d7a32836b38b",
+        "content_type": "application/json",
+        "content_encoding": "utf-8",
+        "result": "null",
+        "date_created": "2023-12-16T04:00:00.055Z",
+        "date_done": "2023-12-16T04:00:00.055Z",
+        "traceback": null,
+        "meta": "{\"children\": []}"
+    }
+},
+{
+    "model": "django_celery_results.taskresult",
+    "pk": 9,
+    "fields": {
+        "task_id": "1b742fbc-dfe6-4dc1-8ce4-f0023710afcb",
+        "periodic_task_name": "celery.backend_cleanup",
+        "task_name": "celery.backend_cleanup",
+        "task_args": "\"()\"",
+        "task_kwargs": "\"{}\"",
+        "status": "SUCCESS",
+        "worker": "celery@d7a32836b38b",
+        "content_type": "application/json",
+        "content_encoding": "utf-8",
+        "result": "null",
+        "date_created": "2023-12-17T04:00:00.056Z",
+        "date_done": "2023-12-17T04:00:00.056Z",
+        "traceback": null,
+        "meta": "{\"children\": []}"
+    }
+},
+{
+    "model": "authentication.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$k286jRR0lK1apcdlB8O278$2NLNKhu9G2d4NA5Qq51rSn+kegcNnVys9R4I6GdNNhE=",
+        "last_login": "2023-12-11T09:48:34.089Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Joann",
+        "last_name": "Oconnor",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-12T21:35:31.619Z",
+        "email": "admin@ppm.com",
+        "company_name": null,
+        "telephone_number": null,
+        "mobile_number": "+923111234455",
+        "secondary_email": null,
+        "other_information": null,
+        "associated_subscription": 1,
+        "stripe_customer": null,
+        "groups": [
+            [
+                "ADMIN"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$xxCqIIaI6jQeO9z5JpGgSC$8c1Xdo+FLk2dM1hUcFwniJhf6eGVsGAwGh74Lwt0khU=",
+        "last_login": "2023-12-01T14:24:52.951Z",
+        "is_superuser": true,
+        "username": "testadmin",
+        "first_name": "Nicholas",
+        "last_name": "Wilson",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-17T08:38:24Z",
+        "email": "admin@test.com",
+        "company_name": null,
+        "telephone_number": null,
+        "mobile_number": "+923111234455",
+        "secondary_email": null,
+        "other_information": null,
+        "associated_subscription": 1,
+        "stripe_customer": null,
+        "groups": [
+            [
+                "PROPERTY"
+            ],
+            [
+                "MAINTENANCE"
+            ],
+            [
+                "ACCOUNTS"
+            ],
+            [
+                "LEASING"
+            ],
+            [
+                "PEOPLE"
+            ],
+            [
+                "COMMUNICATION"
+            ],
+            [
+                "SYSTEM_PREFERENCES"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$ecngIhF1LfLiFJSBVW1LJo$6eUkcI78NqL0cq9JRGV1eZwQrLbHDi8R1gb6SLv8/BA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "designdigo127",
+        "first_name": "Mark",
+        "last_name": "Taylor",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-24T14:33:00Z",
+        "email": "designdigo127@gmail.com",
+        "company_name": null,
+        "telephone_number": null,
+        "mobile_number": "+923111234455",
+        "secondary_email": null,
+        "other_information": null,
+        "associated_subscription": 1,
+        "stripe_customer": null,
+        "groups": [
+            [
+                "PROPERTY"
+            ],
+            [
+                "MAINTENANCE"
+            ],
+            [
+                "ACCOUNTS"
+            ],
+            [
+                "LEASING"
+            ],
+            [
+                "PEOPLE"
+            ],
+            [
+                "COMMUNICATION"
+            ],
+            [
+                "SYSTEM_PREFERENCES"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$pZGautBqHgnowBBcuD1AGU$5q8XQ9pFMohDZOjxNvJuPyvR7XxNU93eoHHBetQ9m6w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "brent",
+        "first_name": "Brent",
+        "last_name": "Williams",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-24T14:34:13.941Z",
+        "email": "markanderson@example.net",
+        "company_name": null,
+        "telephone_number": null,
+        "mobile_number": "+923111234455",
+        "secondary_email": null,
+        "other_information": null,
+        "associated_subscription": 1,
+        "stripe_customer": null,
+        "groups": [
+            [
+                "PROPERTY"
+            ],
+            [
+                "MAINTENANCE"
+            ],
+            [
+                "ACCOUNTS"
+            ],
+            [
+                "LEASING"
+            ],
+            [
+                "PEOPLE"
+            ],
+            [
+                "COMMUNICATION"
+            ],
+            [
+                "SYSTEM_PREFERENCES"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "authentication.user",
+    "fields": {
+        "password": "pbkdf2_sha256$390000$D2FMK8I20PtvxwzsKG9aic$YJzqNRZnx1HCzhwjl4LmetTvfLA+95Yc3zqATKy5/y0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "demo",
+        "first_name": "Demo",
+        "last_name": "User",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-08-21T11:10:56.756Z",
+        "email": "demo@ppm.com",
+        "company_name": null,
+        "telephone_number": null,
+        "mobile_number": "+923111234455",
+        "secondary_email": null,
+        "other_information": null,
+        "associated_subscription": 1,
+        "stripe_customer": null,
+        "groups": [
+            [
+                "PROPERTY"
+            ],
+            [
+                "MAINTENANCE"
+            ],
+            [
+                "ACCOUNTS"
+            ],
+            [
+                "LEASING"
+            ],
+            [
+                "PEOPLE"
+            ],
+            [
+                "COMMUNICATION"
+            ],
+            [
+                "SYSTEM_PREFERENCES"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "subscription.subscription",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2024-02-10T06:43:32.440Z",
+        "updated_at": "2024-02-10T06:43:32.440Z",
+        "purchased_by": [
+            "admin@ppm.com"
+        ]
+    }
+},
+{
+    "model": "authentication.role",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": null,
+        "created_at": "2024-01-10T10:30:48.817Z",
+        "updated_at": "2024-01-10T10:30:48.817Z",
+        "subscription": 1,
+        "name": "Admin",
+        "description": "Full Platform Access",
+        "groups": [
+            [
+                "PROPERTY"
+            ],
+            [
+                "MAINTENANCE"
+            ],
+            [
+                "ACCOUNTS"
+            ],
+            [
+                "LEASING"
+            ],
+            [
+                "PEOPLE"
+            ],
+            [
+                "COMMUNICATION"
+            ],
+            [
+                "SYSTEM_PREFERENCES"
+            ]
+        ],
+        "users": [
+            [
+                "admin@test.com"
+            ],
+            [
+                "designdigo127@gmail.com"
+            ],
+            [
+                "markanderson@example.net"
+            ],
+            [
+                "demo@ppm.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:32:36.948Z",
+        "updated_at": "2023-12-02T20:32:36.948Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "The property shall be advertised on the mentioned date",
+        "date": "2023-12-07",
+        "start_time": "03:05:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "demo@ppm.com"
+        ],
+        "status": true,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:05:53.829Z",
+        "updated_at": "2023-12-04T19:05:53.829Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "The apartments will be up for advertisement. Meeting with the marketing managers",
+        "date": "2023-12-08",
+        "start_time": "14:05:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "parent_property": 6
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:06:36.407Z",
+        "updated_at": "2023-12-04T19:06:36.407Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "On this occasion, the property will be up for posting on social media for the marketing",
+        "date": "2023-12-31",
+        "start_time": "13:00:00",
+        "end_time": null,
+        "label": 4,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "status": true,
+        "parent_property": 6
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:17:06.062Z",
+        "updated_at": "2023-12-04T19:17:06.062Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Getting started with the advertisement of the vacant units",
+        "date": "2023-12-07",
+        "start_time": "13:00:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:17:57.388Z",
+        "updated_at": "2023-12-04T19:17:57.388Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "The marketing team needs to post the vacant units on social media",
+        "date": "2023-12-22",
+        "start_time": "14:00:00",
+        "end_time": null,
+        "label": 4,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:18:30.511Z",
+        "updated_at": "2023-12-04T19:18:30.511Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Meeting with the marketing managers regarding the marketing progress",
+        "date": "2023-12-29",
+        "start_time": "01:00:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "status": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 7,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:19:10.291Z",
+        "updated_at": "2023-12-04T19:19:10.291Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Review all the rental applications and decide their move ins",
+        "date": "2023-12-31",
+        "start_time": "13:00:00",
+        "end_time": null,
+        "label": 5,
+        "assign_to": [
+            "markanderson@example.net"
+        ],
+        "status": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyupcomingactivity",
+    "pk": 8,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:39:03.518Z",
+        "updated_at": "2023-12-04T22:39:03.518Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "I have to assign this duty to one of my subordinates, that he will be posting all the vacant units on marketing sites",
+        "date": "2023-12-31",
+        "start_time": "15:00:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "markanderson@example.net"
+        ],
+        "status": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.property",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:32:03.305Z",
+        "updated_at": "2023-12-04T11:15:17.456Z",
+        "subscription": 1,
+        "name": "Marina del Rey Stella Apartments",
+        "address": "Marina Del Rey Marina: 13524 Bali Way, Marina Del Rey, CA 90292",
+        "property_type": 1,
+        "is_cat_allowed": false,
+        "is_dog_allowed": true,
+        "is_smoking_allowed": false,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": "0.00",
+        "lease_fees_percentage": 10,
+        "lease_fees_commission_type": "fixed",
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": "2000.00",
+        "insurance_expiration_date": "2041-12-19",
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": "No maintenance notes",
+        "default_lease_template": 1,
+        "default_lease_agenda": "This is the default lease template",
+        "default_lease_renewal_template": null,
+        "default_lease_renewal_agenda": null,
+        "default_lease_renewal_letter_template": null,
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": 1
+    }
+},
+{
+    "model": "property.property",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:38:11.210Z",
+        "updated_at": "2023-12-04T20:15:36.231Z",
+        "subscription": 1,
+        "name": "The Elinor",
+        "address": "4531 Hollywood Blvd, Los Angeles, CA 90027",
+        "property_type": 1,
+        "is_cat_allowed": true,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": true,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": null,
+        "lease_fees_percentage": null,
+        "lease_fees_commission_type": null,
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": "2000.00",
+        "insurance_expiration_date": "2024-12-31",
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": "No notes",
+        "default_lease_template": 1,
+        "default_lease_agenda": "The selected lease template will be the default lease template for the system",
+        "default_lease_renewal_template": 1,
+        "default_lease_renewal_agenda": "The same template will be used for the renewal",
+        "default_lease_renewal_letter_template": "-1",
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": 1
+    }
+},
+{
+    "model": "property.property",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:49:13.604Z",
+        "updated_at": "2023-12-04T18:49:13.604Z",
+        "subscription": 1,
+        "name": "T Lofts Apartments",
+        "address": "10625 Tabor St, Los Angeles, CA 90034, United States",
+        "property_type": 1,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": null,
+        "lease_fees_percentage": null,
+        "lease_fees_commission_type": null,
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": null,
+        "insurance_expiration_date": null,
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": null,
+        "default_lease_template": null,
+        "default_lease_agenda": null,
+        "default_lease_renewal_template": null,
+        "default_lease_renewal_agenda": null,
+        "default_lease_renewal_letter_template": null,
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": null
+    }
+},
+{
+    "model": "property.property",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:51:26.901Z",
+        "updated_at": "2023-12-04T18:51:26.901Z",
+        "subscription": 1,
+        "name": "3637 Jasmine Ave Apartments",
+        "address": "3637 Jasmine Ave, Los Angeles, CA 90034, United States",
+        "property_type": 3,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": null,
+        "lease_fees_percentage": null,
+        "lease_fees_commission_type": null,
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": null,
+        "insurance_expiration_date": null,
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": null,
+        "default_lease_template": null,
+        "default_lease_agenda": null,
+        "default_lease_renewal_template": null,
+        "default_lease_renewal_agenda": null,
+        "default_lease_renewal_letter_template": null,
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": null
+    }
+},
+{
+    "model": "property.property",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:59:33.886Z",
+        "updated_at": "2023-12-04T18:59:33.886Z",
+        "subscription": 1,
+        "name": "Rose Avenue Apartments",
+        "address": "10800 Rose Ave, Los Angeles, CA 90034, United States",
+        "property_type": 3,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": null,
+        "lease_fees_percentage": null,
+        "lease_fees_commission_type": null,
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": null,
+        "insurance_expiration_date": null,
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": null,
+        "default_lease_template": null,
+        "default_lease_agenda": null,
+        "default_lease_renewal_template": null,
+        "default_lease_renewal_agenda": null,
+        "default_lease_renewal_letter_template": null,
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": null
+    }
+},
+{
+    "model": "property.property",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:03:25.076Z",
+        "updated_at": "2023-12-04T19:03:25.076Z",
+        "subscription": 1,
+        "name": "Mar Vista Palms Apartments",
+        "address": "3748 Inglewood Blvd, Los Angeles, CA 90066, United States",
+        "property_type": 1,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "additional_fees_gl_account": null,
+        "additional_fees_percentage": null,
+        "addition_fees_suppress": false,
+        "lease_fees_amount": null,
+        "lease_fees_percentage": null,
+        "lease_fees_commission_type": null,
+        "tax_authority": null,
+        "portfolio": null,
+        "description": null,
+        "renters_tax_location_code": null,
+        "property_owner_license": null,
+        "year_built": null,
+        "management_start_date": null,
+        "management_end_date": null,
+        "management_end_reason": null,
+        "nsf_fee": null,
+        "management_fees_amount": null,
+        "management_fees_percentage": null,
+        "management_commission_type": null,
+        "notes": null,
+        "maintenance_limit_amount": null,
+        "insurance_expiration_date": null,
+        "has_home_warranty_coverage": false,
+        "home_warranty_company": null,
+        "home_warranty_expiration_date": null,
+        "maintenance_notes": null,
+        "default_lease_template": null,
+        "default_lease_agenda": null,
+        "default_lease_renewal_template": null,
+        "default_lease_renewal_agenda": null,
+        "default_lease_renewal_letter_template": null,
+        "default_renewal_terms": null,
+        "default_renewal_charge_by": null,
+        "default_renewal_additional_fee": null,
+        "rental_application_template": null
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:32:03.309Z",
+        "updated_at": "2023-12-02T20:35:26.787Z",
+        "subscription": 1,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "late_fee_type": "percentage",
+        "base_amount_fee": "10.00",
+        "eligible_charges": "only_recurring_rent",
+        "charge_daily_late_fees": true,
+        "daily_amount_per_month_max": "50.00",
+        "grace_period_type": "number_of_days",
+        "grace_period": 7,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:38:11.213Z",
+        "updated_at": "2023-12-04T22:48:42.641Z",
+        "subscription": 1,
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "late_fee_type": "flat",
+        "base_amount_fee": "100.00",
+        "eligible_charges": "only_recurring_rent",
+        "charge_daily_late_fees": false,
+        "daily_amount_per_month_max": "500.00",
+        "grace_period_type": "till_date_of_month",
+        "grace_period": 3,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.576Z",
+        "updated_at": "2023-10-05T16:14:16.576Z",
+        "subscription": 1,
+        "start_date": null,
+        "end_date": null,
+        "late_fee_type": null,
+        "base_amount_fee": null,
+        "eligible_charges": null,
+        "charge_daily_late_fees": false,
+        "daily_amount_per_month_max": null,
+        "grace_period_type": null,
+        "grace_period": null,
+        "parent_property": 3
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.592Z",
+        "updated_at": "2023-10-05T16:14:16.592Z",
+        "subscription": 1,
+        "start_date": null,
+        "end_date": null,
+        "late_fee_type": null,
+        "base_amount_fee": null,
+        "eligible_charges": null,
+        "charge_daily_late_fees": false,
+        "daily_amount_per_month_max": null,
+        "grace_period_type": null,
+        "grace_period": null,
+        "parent_property": 4
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.809Z",
+        "updated_at": "2023-10-05T16:14:16.809Z",
+        "subscription": 1,
+        "start_date": null,
+        "end_date": null,
+        "late_fee_type": null,
+        "base_amount_fee": null,
+        "eligible_charges": null,
+        "charge_daily_late_fees": false,
+        "daily_amount_per_month_max": null,
+        "grace_period_type": null,
+        "grace_period": null,
+        "parent_property": 5
+    }
+},
+{
+    "model": "property.propertylatefeepolicy",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.824Z",
+        "updated_at": "2023-10-05T16:14:16.824Z",
+        "subscription": 1,
+        "start_date": null,
+        "end_date": null,
+        "late_fee_type": null,
+        "base_amount_fee": null,
+        "eligible_charges": null,
+        "charge_daily_late_fees": false,
+        "daily_amount_per_month_max": null,
+        "grace_period_type": null,
+        "grace_period": null,
+        "parent_property": 6
+    }
+},
+{
+    "model": "property.propertyattachment",
+    "pk": 1,
+    "fields": {
+        "name": "inventory-items",
+        "file": "properties/attachments/XLS_20231204T201605162Z225230.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:16:13.373Z",
+        "updated_at": "2023-12-04T20:16:13.373Z",
+        "subscription": 1,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyattachment",
+    "pk": 2,
+    "fields": {
+        "name": "Lease template",
+        "file": "properties/attachments/XLS_20231204T201605164Z814297.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:16:13.383Z",
+        "updated_at": "2023-12-04T20:16:13.383Z",
+        "subscription": 1,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyleasetemplateattachment",
+    "pk": 1,
+    "fields": {
+        "name": "inventory-items",
+        "file": "properties/lease-settings/XLS_20231202T203318379Z310485.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:33:21.267Z",
+        "updated_at": "2023-12-02T20:33:21.267Z",
+        "subscription": 1,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyleasetemplateattachment",
+    "pk": 2,
+    "fields": {
+        "name": "Lease template",
+        "file": "properties/lease-settings/XLS_20231204T200429764Z464863.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:04:38.919Z",
+        "updated_at": "2023-12-04T20:04:38.919Z",
+        "subscription": 1,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyleaserenewalattachment",
+    "pk": 1,
+    "fields": {
+        "name": "Lease template",
+        "file": "properties/lease-settings/XLS_20231204T200813433Z869118.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:08:36.361Z",
+        "updated_at": "2023-12-04T20:08:36.361Z",
+        "subscription": 1,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:32:03.311Z",
+        "updated_at": "2023-12-02T20:32:03.311Z",
+        "subscription": 1,
+        "image": "properties/JPEG_20231202T203200888Z956113.jpeg",
+        "is_cover": true,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.545Z",
+        "updated_at": "2023-12-02T20:36:34.545Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231202T203630568Z579623.jpg",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.548Z",
+        "updated_at": "2023-12-02T20:36:34.548Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231202T203630574Z860851.jpg",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.553Z",
+        "updated_at": "2023-12-02T20:36:34.553Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPEG_20231202T203630573Z168107.jpeg",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.550Z",
+        "updated_at": "2023-12-02T20:36:34.550Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231202T203630570Z686897.jpg",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.566Z",
+        "updated_at": "2023-12-02T20:36:34.566Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPEG_20231202T203630571Z433199.jpeg",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 7,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:36:34.591Z",
+        "updated_at": "2023-12-02T20:36:34.591Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/WEBP_20231202T203630576Z963515.webp",
+        "is_cover": false,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 8,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:38:11.216Z",
+        "updated_at": "2023-12-04T18:38:11.216Z",
+        "subscription": 1,
+        "image": "properties/JPG_20231204T183803169Z138873.jpg",
+        "is_cover": true,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 9,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:49:13.610Z",
+        "updated_at": "2023-12-04T18:49:13.610Z",
+        "subscription": 1,
+        "image": "properties/JPG_20231204T184910165Z831116.jpg",
+        "is_cover": true,
+        "parent_property": 3
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 10,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:51:26.906Z",
+        "updated_at": "2023-12-04T18:51:26.906Z",
+        "subscription": 1,
+        "image": "properties/WEBP_20231204T185124080Z513332.webp",
+        "is_cover": true,
+        "parent_property": 4
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 11,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:59:33.892Z",
+        "updated_at": "2023-12-04T18:59:33.892Z",
+        "subscription": 1,
+        "image": "properties/JPG_20231204T185917334Z154700.jpg",
+        "is_cover": true,
+        "parent_property": 5
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 12,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:03:25.081Z",
+        "updated_at": "2023-12-04T19:03:25.081Z",
+        "subscription": 1,
+        "image": "properties/JPG_20231204T190304504Z163972.jpg",
+        "is_cover": true,
+        "parent_property": 6
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 13,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.900Z",
+        "updated_at": "2023-12-04T19:14:40.900Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350706Z313303.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 14,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.914Z",
+        "updated_at": "2023-12-04T19:14:40.914Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350703Z070551.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 15,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.912Z",
+        "updated_at": "2023-12-04T19:14:40.912Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350704Z817817.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 16,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.923Z",
+        "updated_at": "2023-12-04T19:14:40.923Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350701Z986985.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 17,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.922Z",
+        "updated_at": "2023-12-04T19:14:40.922Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350708Z074358.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyphoto",
+    "pk": 18,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:14:40.931Z",
+        "updated_at": "2023-12-04T19:14:40.931Z",
+        "subscription": 1,
+        "image": "properties/image-gallery/JPG_20231204T191350709Z172759.jpg",
+        "is_cover": false,
+        "parent_property": 2
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:42:02.438Z",
+        "updated_at": "2023-12-02T21:42:02.438Z",
+        "subscription": 1,
+        "percentage_owned": 100,
+        "parent_property": 1,
+        "payment_type": "flat",
+        "contract_expiry": "2089-12-28",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "july",
+        "ownership_start_date": "2023-12-04",
+        "owner": 6
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:42:27.106Z",
+        "updated_at": "2023-12-02T21:42:27.106Z",
+        "subscription": 1,
+        "percentage_owned": 10,
+        "parent_property": 1,
+        "payment_type": "flat",
+        "contract_expiry": "2023-12-08",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "july",
+        "ownership_start_date": "2023-12-04",
+        "owner": 5
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:09:45.434Z",
+        "updated_at": "2023-12-04T20:09:45.434Z",
+        "subscription": 1,
+        "percentage_owned": 25,
+        "parent_property": 2,
+        "payment_type": "flat",
+        "contract_expiry": "2035-12-13",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "june",
+        "ownership_start_date": "2023-12-05",
+        "owner": 6
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:10:07.610Z",
+        "updated_at": "2023-12-04T20:10:07.610Z",
+        "subscription": 1,
+        "percentage_owned": 25,
+        "parent_property": 2,
+        "payment_type": "flat",
+        "contract_expiry": "2031-12-25",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "june",
+        "ownership_start_date": "2023-12-07",
+        "owner": 5
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:10:36.864Z",
+        "updated_at": "2023-12-04T20:10:36.864Z",
+        "subscription": 1,
+        "percentage_owned": 25,
+        "parent_property": 2,
+        "payment_type": "flat",
+        "contract_expiry": "2030-12-17",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "june",
+        "ownership_start_date": "2023-12-06",
+        "owner": 4
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:11:06.739Z",
+        "updated_at": "2023-12-04T20:14:01.376Z",
+        "subscription": 1,
+        "percentage_owned": 25,
+        "parent_property": 2,
+        "payment_type": "flat",
+        "contract_expiry": "2034-12-13",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "june",
+        "ownership_start_date": "2023-12-06",
+        "owner": 2
+    }
+},
+{
+    "model": "property.propertyowner",
+    "pk": 7,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:47:22.992Z",
+        "updated_at": "2023-12-04T22:47:22.992Z",
+        "subscription": 1,
+        "percentage_owned": 100,
+        "parent_property": 3,
+        "payment_type": "net_income",
+        "contract_expiry": "2026-12-07",
+        "reserve_funds": "0.00",
+        "fiscal_year_end": "july",
+        "ownership_start_date": "2023-12-06",
+        "owner": 2
+    }
+},
+{
+    "model": "property.rentableitem",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T11:04:07.379Z",
+        "updated_at": "2023-12-04T11:04:07.379Z",
+        "subscription": 1,
+        "name": "Item Name",
+        "description": "Some description, detail something to share about related to item",
+        "amount": "320.00",
+        "gl_account": "15454589 98598956 6566",
+        "tenant": 1,
+        "status": true,
+        "parent_property": 1
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:37:18.682Z",
+        "updated_at": "2023-12-02T20:49:15.468Z",
+        "subscription": 1,
+        "name": "The 5 bed apartments",
+        "bed_rooms": 5,
+        "bath_rooms": 6,
+        "square_feet": 5000,
+        "market_rent": "2500.00",
+        "future_market_rent": "3000.00",
+        "effective_date": "2023-12-03",
+        "application_fee": "50.00",
+        "estimate_turn_over_cost": "50.00",
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 1,
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:26:39.782Z",
+        "updated_at": "2023-12-04T19:28:25.375Z",
+        "subscription": 1,
+        "name": "One bed Apartments",
+        "bed_rooms": 1,
+        "bath_rooms": 1,
+        "square_feet": 1000,
+        "market_rent": "2000.00",
+        "future_market_rent": "2500.00",
+        "effective_date": "2023-12-06",
+        "application_fee": "50.00",
+        "estimate_turn_over_cost": "700.00",
+        "is_cat_allowed": true,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": true,
+        "marketing_title": "Luxury single bed apartments",
+        "marketing_description": "The details provided are for the public websites and marketing platforms",
+        "marketing_youtube_url": "https://www.dummylink.com",
+        "parent_property": 2,
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:38:18.040Z",
+        "updated_at": "2023-12-04T19:39:13.752Z",
+        "subscription": 1,
+        "name": "2-Bed Apartments",
+        "bed_rooms": 2,
+        "bath_rooms": 2,
+        "square_feet": 1000,
+        "market_rent": "3500.00",
+        "future_market_rent": "4000.00",
+        "effective_date": "2024-01-01",
+        "application_fee": "100.00",
+        "estimate_turn_over_cost": "700.00",
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 2,
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.825Z",
+        "updated_at": "2023-10-05T16:14:16.826Z",
+        "subscription": 1,
+        "name": "Moss Centers",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 3,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.850Z",
+        "updated_at": "2023-10-05T16:14:16.851Z",
+        "subscription": 1,
+        "name": "Martinez Valley",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 3,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.014Z",
+        "updated_at": "2023-10-05T16:14:17.016Z",
+        "subscription": 1,
+        "name": "Douglas Rue",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 3,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 7,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.199Z",
+        "updated_at": "2023-12-11T09:53:14.150Z",
+        "subscription": 1,
+        "name": "Stephanie Brooks",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": "",
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 8,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.231Z",
+        "updated_at": "2023-12-11T09:53:20.028Z",
+        "subscription": 1,
+        "name": "Victoria Expressway",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": "",
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 9,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.419Z",
+        "updated_at": "2023-10-05T16:14:17.422Z",
+        "subscription": 1,
+        "name": "Michelle Lane",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 10,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.482Z",
+        "updated_at": "2023-10-05T16:14:17.483Z",
+        "subscription": 1,
+        "name": "Lisa Lights",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 11,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.495Z",
+        "updated_at": "2023-10-05T16:14:17.496Z",
+        "subscription": 1,
+        "name": "Melinda Ramp",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 12,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.661Z",
+        "updated_at": "2023-10-05T16:14:17.671Z",
+        "subscription": 1,
+        "name": "Bradley Knolls",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 13,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.831Z",
+        "updated_at": "2023-10-05T16:14:17.834Z",
+        "subscription": 1,
+        "name": "Fernandez Stravenue",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 6,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittype",
+    "pk": 14,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:18.027Z",
+        "updated_at": "2023-10-05T16:14:18.029Z",
+        "subscription": 1,
+        "name": "Daniel Ville",
+        "bed_rooms": 20,
+        "bath_rooms": 86,
+        "square_feet": 88,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "is_cat_allowed": false,
+        "is_dog_allowed": false,
+        "is_smoking_allowed": false,
+        "marketing_title": null,
+        "marketing_description": null,
+        "marketing_youtube_url": null,
+        "parent_property": 6,
+        "tags": []
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:37:18.685Z",
+        "updated_at": "2023-12-02T20:37:18.685Z",
+        "subscription": 1,
+        "image": "unit-types/WEBP_20231202T203715453Z084818.webp",
+        "is_cover": true,
+        "unit_type": 1
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:26:39.785Z",
+        "updated_at": "2023-12-04T19:26:39.785Z",
+        "subscription": 1,
+        "image": "unit-types/JPG_20231204T192625641Z412186.jpg",
+        "is_cover": true,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:29:57.188Z",
+        "updated_at": "2023-12-04T19:29:57.188Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T192943478Z973839.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:38:18.043Z",
+        "updated_at": "2023-12-04T19:38:18.043Z",
+        "subscription": 1,
+        "image": "unit-types/JPG_20231204T193809561Z198729.jpg",
+        "is_cover": true,
+        "unit_type": 3
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:41:53.769Z",
+        "updated_at": "2023-12-04T19:41:53.769Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194146207Z270544.jpg",
+        "is_cover": false,
+        "unit_type": 3
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:42:29.216Z",
+        "updated_at": "2023-12-04T19:42:29.216Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194219841Z982370.jpg",
+        "is_cover": false,
+        "unit_type": 3
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 7,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.342Z",
+        "updated_at": "2023-12-04T19:43:35.342Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300983Z622459.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 8,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.343Z",
+        "updated_at": "2023-12-04T19:43:35.343Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300981Z605727.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 9,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.353Z",
+        "updated_at": "2023-12-04T19:43:35.353Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300979Z919840.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 10,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.354Z",
+        "updated_at": "2023-12-04T19:43:35.354Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300982Z714754.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 11,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.372Z",
+        "updated_at": "2023-12-04T19:43:35.372Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300978Z391628.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unittypephoto",
+    "pk": 12,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:43:35.371Z",
+        "updated_at": "2023-12-04T19:43:35.371Z",
+        "subscription": 1,
+        "image": "unit-types/image-gallery/JPG_20231204T194300984Z323846.jpg",
+        "is_cover": false,
+        "unit_type": 2
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:50:10.405Z",
+        "updated_at": "2024-07-27T14:54:56.526Z",
+        "subscription": 1,
+        "name": "Unit 1",
+        "unit_type": 1,
+        "market_rent": "2500.00",
+        "future_market_rent": "3000.00",
+        "effective_date": "2023-12-03",
+        "application_fee": "50.00",
+        "estimate_turn_over_cost": "50.00",
+        "address": "Marina Del Rey Marina: 13524 Bali Way, Marina Del Rey, CA 90292",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": null,
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 1,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:31:30.633Z",
+        "updated_at": "2024-07-27T14:54:56.537Z",
+        "subscription": 1,
+        "name": "Elinor - 9",
+        "unit_type": 2,
+        "market_rent": "2000.00",
+        "future_market_rent": "2500.00",
+        "effective_date": "2023-12-06",
+        "application_fee": "50.00",
+        "estimate_turn_over_cost": "700.00",
+        "address": "4531 Hollywood Blvd, Los Angeles, CA 90027, United States",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": null,
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 2,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:44:32.791Z",
+        "updated_at": "2024-07-27T14:54:56.545Z",
+        "subscription": 1,
+        "name": "Elinor - 10",
+        "unit_type": 3,
+        "market_rent": "3500.00",
+        "future_market_rent": "4000.00",
+        "effective_date": "2024-01-01",
+        "application_fee": "100.00",
+        "estimate_turn_over_cost": "700.00",
+        "address": "4531 Hollywood Blvd, Los Angeles, CA 90027, United States",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": null,
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 2,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:51:42.956Z",
+        "updated_at": "2024-07-27T14:54:56.555Z",
+        "subscription": 1,
+        "name": "Elinor 5",
+        "unit_type": 2,
+        "market_rent": "2000.00",
+        "future_market_rent": "2500.00",
+        "effective_date": "2023-12-06",
+        "application_fee": "50.00",
+        "estimate_turn_over_cost": "700.00",
+        "address": "",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": null,
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 2,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.853Z",
+        "updated_at": "2024-07-27T14:54:56.562Z",
+        "subscription": 1,
+        "name": "aker, Anderson and Bell",
+        "unit_type": 5,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "address": "5646 Thomas Square\r\nLake Dennisville, FL 97496",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": "Change town note affect few. Everybody box mouth window. Probably north such discover total time. Do church fire sound election.\r\nCoach follow realize region visit out. Education see fight get whose. Poor strategy exactly board force recognize.\r\nThought magazine player much cut life quality half. Against information mean box design under.\r\nTraining own huge stuff still. Never force give vote Democrat. Hour season offer whatever loss get drug.",
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 3,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.019Z",
+        "updated_at": "2024-07-27T14:54:56.570Z",
+        "subscription": 1,
+        "name": "May, Orr and Boyd",
+        "unit_type": 6,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "address": "9063 Kaiser Lake Suite 715\r\nJamesland, ME 28152",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": "Knowledge because anyone report trade best political. Consumer just subject behind international eat. Individual project I result opportunity.\r\nPartner place in how middle apply actually. Go stop key under born. Hour kid either weight onto customer she.\r\nSport between citizen. Case turn total.\r\nUsually line few event sign itself in. Light it third traditional.\r\nLong skin morning point hair. Leg product seem believe head.",
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 3,
+        "tags": []
+    }
+},
+{
+    "model": "property.unit",
+    "pk": 7,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.205Z",
+        "updated_at": "2024-07-27T14:54:56.576Z",
+        "subscription": 1,
+        "name": "Jones LLC",
+        "unit_type": 7,
+        "market_rent": "78.00",
+        "future_market_rent": "16.00",
+        "effective_date": null,
+        "application_fee": null,
+        "estimate_turn_over_cost": null,
+        "address": "3160 Andrade Rue Suite 222\r\nNew Zacharybury, OK 05861",
+        "ready_for_show_on": null,
+        "virtual_showing_available": false,
+        "utility_bills": false,
+        "utility_bills_date": null,
+        "lock_box": null,
+        "description": "Close view happen knowledge onto figure. Gas say operation news responsibility father. Visit industry glass citizen marriage.\r\nPartner worry pick certainly hand personal. Our worker likely practice woman past box them.\r\nMonth interest century product. Financial point human training growth threat. Action wife arrive analysis true involve few.\r\nProgram scientist at daughter hour. Quite already woman those set number something. Bed yet rich employee.",
+        "non_revenues_status": false,
+        "balance": null,
+        "total_charges": null,
+        "total_credit": null,
+        "due_amount": null,
+        "total_payable": null,
+        "parent_property": 5,
+        "tags": []
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:52:16.574Z",
+        "updated_at": "2023-12-02T20:52:16.574Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "We need to present it as well in the advertisement",
+        "date": "2023-12-08",
+        "start_time": "02:00:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "status": true,
+        "unit": 1
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:34:22.378Z",
+        "updated_at": "2023-12-04T19:34:22.378Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "The maintenance of the apartment shall be checked before it is advertised",
+        "date": "2023-12-06",
+        "start_time": "02:00:00",
+        "end_time": null,
+        "label": 6,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "status": true,
+        "unit": 2
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:34:48.482Z",
+        "updated_at": "2023-12-04T19:34:48.482Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Perform the inspection in detail for the property",
+        "date": "2023-12-07",
+        "start_time": "14:00:00",
+        "end_time": null,
+        "label": 6,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "status": true,
+        "unit": 2
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:35:32.402Z",
+        "updated_at": "2023-12-04T19:35:32.402Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Visit the applicants to the unit",
+        "date": "2023-12-31",
+        "start_time": "08:00:00",
+        "end_time": null,
+        "label": 3,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "unit": 2
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:33:13.363Z",
+        "updated_at": "2023-10-06T16:33:13.363Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "",
+        "date": "1983-04-28",
+        "start_time": "19:06:35",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@test.com"
+        ],
+        "status": true,
+        "unit": 7
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:33:13.673Z",
+        "updated_at": "2023-10-06T16:33:13.673Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "",
+        "date": "1983-04-28",
+        "start_time": "19:06:35",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@test.com"
+        ],
+        "status": true,
+        "unit": 7
+    }
+},
+{
+    "model": "property.unitupcomingactivity",
+    "pk": 7,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:33:13.978Z",
+        "updated_at": "2023-10-06T16:33:13.978Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "",
+        "date": "1983-04-28",
+        "start_time": "19:06:35",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@test.com"
+        ],
+        "status": true,
+        "unit": 7
+    }
+},
+{
+    "model": "property.unitphoto",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:50:10.408Z",
+        "updated_at": "2023-12-02T20:50:10.408Z",
+        "subscription": 1,
+        "image": "units/JPG_20231202T205006480Z736425.jpg",
+        "is_cover": true,
+        "unit": 1
+    }
+},
+{
+    "model": "property.unitphoto",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:31:30.636Z",
+        "updated_at": "2023-12-04T19:31:30.636Z",
+        "subscription": 1,
+        "image": "units/JPG_20231204T193108106Z360489.jpg",
+        "is_cover": true,
+        "unit": 2
+    }
+},
+{
+    "model": "property.unitphoto",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:44:32.794Z",
+        "updated_at": "2023-12-04T19:44:32.794Z",
+        "subscription": 1,
+        "image": "units/JPG_20231204T194418682Z096982.jpg",
+        "is_cover": true,
+        "unit": 3
+    }
+},
+{
+    "model": "property.unitphoto",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:51:42.959Z",
+        "updated_at": "2023-12-04T22:51:42.959Z",
+        "subscription": 1,
+        "image": "units/JPG_20231204T225139517Z817520.jpg",
+        "is_cover": true,
+        "unit": 4
+    }
+},
+{
+    "model": "lease.leasetemplate",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:12:13.357Z",
+        "updated_at": "2023-12-04T19:59:46.101Z",
+        "subscription": 1,
+        "name": "Detailed Leases",
+        "description": "This type of lease templates consist of detailed policies, rules and regulations",
+        "rules_and_policies": "[\"Male members standing in front of other units is not allowed\", \"No smoking allowed in front of other units\", \"Max Number of Pets: 2\", \"Max weight of pets: 25\", \"Pet deposit fee min: $500\", \"Pet monthly rent min: $50\", \"Pet policy: No aggressive breeds allowed.\"]",
+        "condition_of_premises": "[\"Make your bed every morning\", \"Do not harm any fixed asset, incase of any damage, security deposit might get deducted\", \"Do not mess with the elecric boards, that might harm you and the room\", \"In case of lease extension, do inform the management 8 hours before the checkout time\"]",
+        "right_of_inspection": true,
+        "conditions_of_moving_out": "[\"The tenant is supposed to inform a day before in case of early move out\"]",
+        "releasing_policies": "[\"The tenant has to leave the apartment at the end of the lease\", \"Tenants have the option to renew their lease at the end of the term.\", \"Early termination of the lease is subject to a fee equal to one month's rent\", \"Subleasing is allowed with written consent from the landlord\", \"The landlord has the right to terminate the lease if the tenant violates any significant terms\", \"Both the landlord and tenant must provide a 30-day written notice for lease termination\"]",
+        "final_statement": "<p><span style=\"color: rgb(55, 65, 81);\">Please use the designated digital signature fields below to electronically sign and accept the terms of this lease agreement. By signing, both parties acknowledge their understanding and agreement to the terms outlined herein</span></p>"
+    }
+},
+{
+    "model": "lease.rentalapplicationtemplate",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:21:11.665Z",
+        "updated_at": "2023-12-04T22:45:22.509Z",
+        "subscription": 1,
+        "name": "Luxury Properties",
+        "description": "This is a rental application template for luxury properties",
+        "general_info": true,
+        "personal_details": true,
+        "rental_history": true,
+        "financial_info": true,
+        "dependents_info": true,
+        "other_info": true
+    }
+},
+{
+    "model": "lease.secondarytenant",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:12:31.016Z",
+        "updated_at": "2023-12-02T21:12:31.016Z",
+        "subscription": 1,
+        "first_name": "Sami",
+        "last_name": "Ullah",
+        "email": "sami@gmail.com",
+        "phone_number": "+923357778967",
+        "birthday": "1984-01-25",
+        "tax_payer_id": "8765435679",
+        "description": "Just a descriptioon",
+        "lease": 1
+    }
+},
+{
+    "model": "lease.secondarytenant",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:34:48.837Z",
+        "updated_at": "2023-12-04T20:47:21.721Z",
+        "subscription": 1,
+        "first_name": "Isabella",
+        "last_name": "Gonzales",
+        "email": "Isabella@gmail.com",
+        "phone_number": "+19523456675",
+        "birthday": "1951-01-16",
+        "tax_payer_id": "34564322",
+        "description": "The secondary tenant living with Brandon Kim",
+        "lease": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationemergencycontact",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:03:57.847Z",
+        "updated_at": "2023-12-02T21:03:57.850Z",
+        "subscription": 1,
+        "name": "Asad Khan",
+        "phone_number": "+923345677643",
+        "relationship": "brother",
+        "address": "House No 60, Street 4, Block C, Alharam town, Peshawar",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationemergencycontact",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:31:56.662Z",
+        "updated_at": "2023-12-04T20:31:56.665Z",
+        "subscription": 1,
+        "name": "Brendon",
+        "phone_number": "+19314543234",
+        "relationship": "brother",
+        "address": "345 Park view, Cy",
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationemergencycontact",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-05T07:24:07.666Z",
+        "updated_at": "2023-12-05T07:24:07.668Z",
+        "subscription": 1,
+        "name": "Asad Khan",
+        "phone_number": "+923345677643",
+        "relationship": "brother",
+        "address": "House No 60, Street 4, Block C, Alharam town, Peshawar",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationresidentialhistory",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:00:21.432Z",
+        "updated_at": "2023-12-02T21:00:21.435Z",
+        "subscription": 1,
+        "current_address": "House No 60, Street 4, Block C, Alharam town, Peshawar",
+        "current_address_2": "KP",
+        "current_city": "Peshawar",
+        "current_zip_code": "25000",
+        "current_country": "PK",
+        "resident_from": "2010-12-16",
+        "resident_to": "2015-12-28",
+        "landlord_name": "Akhtar Khan",
+        "landlord_phone_number": "+923345343345",
+        "landlord_email": "example@gmail.com",
+        "reason_of_leaving": "Just an example rental application",
+        "monthly_rent": "2000.00",
+        "current_state": "KPK",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationresidentialhistory",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-04T12:21:25.070Z",
+        "updated_at": "2023-12-04T12:21:25.073Z",
+        "subscription": 1,
+        "current_address": "House No 60, Street 4, Block C, Alharam town, Peshawar",
+        "current_address_2": "KP",
+        "current_city": "Peshawar",
+        "current_zip_code": "25000",
+        "current_country": "PK",
+        "resident_from": "2010-12-16",
+        "resident_to": null,
+        "landlord_name": "Akhtar Khan",
+        "landlord_phone_number": "+923345343345",
+        "landlord_email": "example@gmail.com",
+        "reason_of_leaving": "Just an example rental application",
+        "monthly_rent": "2000.00",
+        "current_state": "KPK",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationresidentialhistory",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:27:19.203Z",
+        "updated_at": "2023-12-04T20:27:19.205Z",
+        "subscription": 1,
+        "current_address": "456 Park Avenue, New York, NY 10022",
+        "current_address_2": "USA",
+        "current_city": "Park Avenue",
+        "current_zip_code": "4354352",
+        "current_country": "US",
+        "resident_from": "2019-12-18",
+        "resident_to": "2023-12-04",
+        "landlord_name": "Elijah Taylor",
+        "landlord_phone_number": "+19522345344",
+        "landlord_email": "Elijabh@yahoo.com",
+        "reason_of_leaving": "Moved to this city",
+        "monthly_rent": "2400.00",
+        "current_state": "NY",
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationfinancialinformation",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:02:46.359Z",
+        "updated_at": "2023-12-02T21:02:46.361Z",
+        "subscription": 1,
+        "name": "Zia Ullah",
+        "account_type": "Saving account",
+        "bank": "Habib Bank",
+        "account_number": "23564535342",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationfinancialinformation",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:29:36.405Z",
+        "updated_at": "2023-12-04T20:29:36.408Z",
+        "subscription": 1,
+        "name": "Brandon Kim",
+        "account_type": "Current",
+        "bank": "BridgeWater Bank, USA",
+        "account_number": "3456454345657564700",
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationadditionalincome",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:02:46.366Z",
+        "updated_at": "2023-12-02T21:02:46.369Z",
+        "subscription": 1,
+        "monthly_income": "2000.00",
+        "source_of_income": "Freelancing",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationadditionalincome",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:29:36.412Z",
+        "updated_at": "2023-12-04T20:29:36.414Z",
+        "subscription": 1,
+        "monthly_income": "500.00",
+        "source_of_income": "Freelancing",
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationdependent",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:03:25.420Z",
+        "updated_at": "2023-12-02T21:03:25.423Z",
+        "subscription": 1,
+        "first_name": "Asad",
+        "last_name": "Khan",
+        "birthday": "2001-01-10",
+        "relationship": "brother",
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationdependent",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:30:29.029Z",
+        "updated_at": "2023-12-04T20:30:29.031Z",
+        "subscription": 1,
+        "first_name": "Isabella",
+        "last_name": "Gonzales",
+        "birthday": "1973-01-16",
+        "relationship": "mother",
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationpets",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:03:25.427Z",
+        "updated_at": "2023-12-02T21:03:25.430Z",
+        "subscription": 1,
+        "name": "Jack",
+        "pet_type": "cat",
+        "weight": 20.0,
+        "age": 1,
+        "rental_application": 1
+    }
+},
+{
+    "model": "lease.rentalapplicationpets",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:30:29.036Z",
+        "updated_at": "2023-12-04T20:30:29.038Z",
+        "subscription": 1,
+        "name": "Jack",
+        "pet_type": "dog",
+        "weight": 22.0,
+        "age": 1,
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.rentalapplicationattachment",
+    "pk": 1,
+    "fields": {
+        "name": "NOC",
+        "file": "rental-applications/attachments/XLS_20231204T203059014Z432433.xls",
+        "file_type": "XLS",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:31:04.253Z",
+        "updated_at": "2023-12-04T20:31:04.253Z",
+        "subscription": 1,
+        "rental_application": 2
+    }
+},
+{
+    "model": "lease.applicant",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:57:37.562Z",
+        "updated_at": "2023-12-02T20:57:37.562Z",
+        "subscription": 1,
+        "first_name": "Zia",
+        "last_name": "Ullah",
+        "email": "uzia3277@gmail.com",
+        "allow_email_for_rental_application": true,
+        "phone_number": "+923364357517",
+        "unit": 1
+    }
+},
+{
+    "model": "lease.applicant",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:20:46.520Z",
+        "updated_at": "2023-12-04T20:20:46.520Z",
+        "subscription": 1,
+        "first_name": "Brandon",
+        "last_name": "Kim",
+        "email": "brandomkin@outlook.com",
+        "allow_email_for_rental_application": true,
+        "phone_number": "+19512390523",
+        "unit": 3
+    }
+},
+{
+    "model": "lease.applicant",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:22:04.320Z",
+        "updated_at": "2023-12-04T20:22:04.320Z",
+        "subscription": 1,
+        "first_name": "Adrian",
+        "last_name": "Brown",
+        "email": "adrian@gmail.com",
+        "allow_email_for_rental_application": false,
+        "phone_number": "+19512345567",
+        "unit": 2
+    }
+},
+{
+    "model": "lease.rentalapplication",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-02T20:57:37.568Z",
+        "updated_at": "2023-12-05T07:24:07.660Z",
+        "subscription": 1,
+        "applicant": 1,
+        "status": "APPROVED",
+        "desired_move_in_date": "2023-12-04",
+        "legal_first_name": "Zia",
+        "middle_name": "",
+        "legal_last_name": "Ullah",
+        "application_type": "FINANCIALlY_INDEPENDENT",
+        "phone_number": "[\"+923345676544\"]",
+        "emails": "[\"zee.kh327@gmail.com\"]",
+        "notes": "",
+        "birthday": "1997-04-22",
+        "ssn_or_tin": "24323423423",
+        "driving_license_number": "2342342423",
+        "employer_name": "Moody Rock",
+        "employer_address": "New Jersy,New york",
+        "employer_address_2": null,
+        "employer_phone_number": "+923354345667",
+        "employment_city": "Calefornia",
+        "employment_zip_code": "23423423",
+        "employment_country": "US",
+        "monthly_salary": "10000.00",
+        "position_held": "Project Manager",
+        "years_worked": 2,
+        "supervisor_name": "Mr Example",
+        "supervisor_phone_number": null,
+        "supervisor_email": "example@gmail.com",
+        "supervisor_title": "Sr Project Manager",
+        "is_defendant_in_any_lawsuit": false,
+        "is_convicted": false,
+        "have_filed_case_against_landlord": false,
+        "is_smoker": false,
+        "general_info": true,
+        "personal_details": true,
+        "rental_history": true,
+        "financial_info": true,
+        "dependents_info": true,
+        "other_info": true,
+        "is_general_info_filled": true,
+        "is_personal_details_filled": true,
+        "is_rental_history_filled": true,
+        "is_financial_info_filled": false,
+        "is_dependents_filled": true,
+        "is_other_info_filled": true
+    }
+},
+{
+    "model": "lease.rentalapplication",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:20:46.526Z",
+        "updated_at": "2023-12-04T20:32:12.397Z",
+        "subscription": 1,
+        "applicant": 2,
+        "status": "APPROVED",
+        "desired_move_in_date": "2024-01-01",
+        "legal_first_name": "Brandon",
+        "middle_name": "de",
+        "legal_last_name": "Kim",
+        "application_type": "DEPENDENT",
+        "phone_number": "[\"+19523347463\"]",
+        "emails": "[\"Brandon@outlook.com\"]",
+        "notes": "No Notes",
+        "birthday": "1992-01-16",
+        "ssn_or_tin": "32246342",
+        "driving_license_number": "bcdf-afsa-sdfs-2344",
+        "employer_name": "Moody RockLLC",
+        "employer_address": "1375 on Broadway is 1375 Broadway.",
+        "employer_address_2": null,
+        "employer_phone_number": "+19513455634",
+        "employment_city": "NY",
+        "employment_zip_code": "3456753",
+        "employment_country": "US",
+        "monthly_salary": "2500.00",
+        "position_held": "Project Manager",
+        "years_worked": 2,
+        "supervisor_name": "Madison Ruiz",
+        "supervisor_phone_number": null,
+        "supervisor_email": "Madison@gmail.com",
+        "supervisor_title": "Sr. Project Manager",
+        "is_defendant_in_any_lawsuit": false,
+        "is_convicted": false,
+        "have_filed_case_against_landlord": false,
+        "is_smoker": false,
+        "general_info": true,
+        "personal_details": true,
+        "rental_history": true,
+        "financial_info": true,
+        "dependents_info": true,
+        "other_info": true,
+        "is_general_info_filled": true,
+        "is_personal_details_filled": true,
+        "is_rental_history_filled": true,
+        "is_financial_info_filled": false,
+        "is_dependents_filled": true,
+        "is_other_info_filled": true
+    }
+},
+{
+    "model": "lease.rentalapplication",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:22:04.327Z",
+        "updated_at": "2023-12-04T20:24:28.716Z",
+        "subscription": 1,
+        "applicant": 3,
+        "status": "DRAFT",
+        "desired_move_in_date": "2024-01-01",
+        "legal_first_name": "Adrian",
+        "middle_name": "",
+        "legal_last_name": "Brown",
+        "application_type": "DEPENDENT",
+        "phone_number": "[\"+19514453222\"]",
+        "emails": "[\"adrian@gmail.com\"]",
+        "notes": null,
+        "birthday": "1985-01-02",
+        "ssn_or_tin": "2434234342",
+        "driving_license_number": "DF-23463232-B",
+        "employer_name": null,
+        "employer_address": null,
+        "employer_address_2": null,
+        "employer_phone_number": null,
+        "employment_city": null,
+        "employment_zip_code": null,
+        "employment_country": null,
+        "monthly_salary": null,
+        "position_held": null,
+        "years_worked": null,
+        "supervisor_name": null,
+        "supervisor_phone_number": null,
+        "supervisor_email": null,
+        "supervisor_title": null,
+        "is_defendant_in_any_lawsuit": false,
+        "is_convicted": false,
+        "have_filed_case_against_landlord": false,
+        "is_smoker": false,
+        "general_info": true,
+        "personal_details": true,
+        "rental_history": true,
+        "financial_info": true,
+        "dependents_info": true,
+        "other_info": true,
+        "is_general_info_filled": true,
+        "is_personal_details_filled": true,
+        "is_rental_history_filled": false,
+        "is_financial_info_filled": false,
+        "is_dependents_filled": false,
+        "is_other_info_filled": false
+    }
+},
+{
+    "model": "lease.lease",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:12:31.005Z",
+        "updated_at": "2024-02-06T10:18:43.072Z",
+        "subscription": 1,
+        "rental_application": 1,
+        "lease_type": "FIXED",
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "lease_template": 1,
+        "rent_cycle": "MONTHLY",
+        "amount": "2000.00",
+        "gl_account": "15454589 98598956 6566",
+        "description": "The rent is on monthly basis",
+        "due_date": "2024-12-20",
+        "status": "ACTIVE",
+        "closed_on": null,
+        "unit": 1,
+        "rules_and_policies": "[\"Male members standing in front of other units is not allowed\", \"No smoking allowed in front of other units\", \"Max Number of Pets: 2\", \"Max weight of pets: 25\", \"Pet deposit fee min: $500\", \"Pet monthly rent min: $50\", \"Pet policy: No aggressive breeds allowed.\"]",
+        "condition_of_premises": "[\"Make your bed every morning\", \"Do not harm any fixed asset, incase of any damage, security deposit might get deducted\", \"Do not mess with the elecric boards, that might harm you and the room\", \"In case of lease extension, do inform the management 8 hours before the checkout time\"]",
+        "right_of_inspection": true,
+        "conditions_of_moving_out": "[\"The tenant is supposed to inform a day before in case of early move out\"]",
+        "releasing_policies": "[\"The tenant has to leave the apartment at the end of the lease\", \"Tenants have the option to renew their lease at the end of the term.\", \"Early termination of the lease is subject to a fee equal to one month's rent\", \"Subleasing is allowed with written consent from the landlord\", \"The landlord has the right to terminate the lease if the tenant violates any significant terms\", \"Both the landlord and tenant must provide a 30-day written notice for lease termination\"]",
+        "final_statement": "<p><span style=\"color: rgb(55, 65, 81);\">Please use the designated digital signature fields below to electronically sign and accept the terms of this lease agreement. By signing, both parties acknowledge their understanding and agreement to the terms outlined herein</span></p>"
+    }
+},
+{
+    "model": "lease.lease",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:34:48.826Z",
+        "updated_at": "2024-02-06T10:18:43.084Z",
+        "subscription": 1,
+        "rental_application": 2,
+        "lease_type": "FIXED",
+        "start_date": "2024-01-01",
+        "end_date": "2024-12-31",
+        "lease_template": 1,
+        "rent_cycle": "MONTHLY",
+        "amount": "3500.00",
+        "gl_account": "15454589 98598956 6566",
+        "description": "The tenant will be charged monthly",
+        "due_date": "2024-12-20",
+        "status": "ACTIVE",
+        "closed_on": null,
+        "unit": 3,
+        "rules_and_policies": "[\"Male members standing in front of other units is not allowed\", \"No smoking allowed in front of other units\", \"Max Number of Pets: 2\", \"Max weight of pets: 25\", \"Pet deposit fee min: $500\", \"Pet monthly rent min: $50\", \"Pet policy: No aggressive breeds allowed.\"]",
+        "condition_of_premises": "[\"Make your bed every morning\", \"Do not harm any fixed asset, incase of any damage, security deposit might get deducted\", \"Do not mess with the elecric boards, that might harm you and the room\", \"In case of lease extension, do inform the management 8 hours before the checkout time\"]",
+        "right_of_inspection": true,
+        "conditions_of_moving_out": "[\"The tenant is supposed to inform a day before in case of early move out\"]",
+        "releasing_policies": "[\"The tenant has to leave the apartment at the end of the lease\", \"Tenants have the option to renew their lease at the end of the term.\", \"Early termination of the lease is subject to a fee equal to one month's rent\", \"Subleasing is allowed with written consent from the landlord\", \"The landlord has the right to terminate the lease if the tenant violates any significant terms\", \"Both the landlord and tenant must provide a 30-day written notice for lease termination\"]",
+        "final_statement": "<p><span style=\"color: rgb(55, 65, 81);\">Please use the designated digital signature fields below to electronically sign and accept the terms of this lease agreement. By signing, both parties acknowledge their understanding and agreement to the terms outlined herein</span></p>"
+    }
+},
+{
+    "model": "lease.lease",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T12:30:04.569Z",
+        "updated_at": "2024-02-06T10:18:43.094Z",
+        "subscription": 1,
+        "rental_application": 3,
+        "lease_type": "FIXED",
+        "start_date": "2023-01-01",
+        "end_date": "2024-12-12",
+        "lease_template": 1,
+        "rent_cycle": "MONTHLY",
+        "amount": "500.00",
+        "gl_account": "6375",
+        "description": "Produce treatment dinner commercial peace adult. Claim upon price none continue bit over. Officer my professor reason claim value daughter city. Future read education reflect.",
+        "due_date": "1986-11-15",
+        "status": "ACTIVE",
+        "closed_on": null,
+        "unit": 2,
+        "rules_and_policies": "[\"Male members standing in front of other units is not allowed\", \"No smoking allowed in front of other units\", \"Max Number of Pets: 2\", \"Max weight of pets: 25\", \"Pet deposit fee min: $500\", \"Pet monthly rent min: $50\", \"Pet policy: No aggressive breeds allowed.\"]",
+        "condition_of_premises": "[\"Make your bed every morning\", \"Do not harm any fixed asset, incase of any damage, security deposit might get deducted\", \"Do not mess with the elecric boards, that might harm you and the room\", \"In case of lease extension, do inform the management 8 hours before the checkout time\"]",
+        "right_of_inspection": true,
+        "conditions_of_moving_out": "[\"The tenant is supposed to inform a day before in case of early move out\"]",
+        "releasing_policies": "[\"The tenant has to leave the apartment at the end of the lease\", \"Tenants have the option to renew their lease at the end of the term.\", \"Early termination of the lease is subject to a fee equal to one month's rent\", \"Subleasing is allowed with written consent from the landlord\", \"The landlord has the right to terminate the lease if the tenant violates any significant terms\", \"Both the landlord and tenant must provide a 30-day written notice for lease termination\"]",
+        "final_statement": "<p><span style=\"color: rgb(55, 65, 81);\">Please use the designated digital signature fields below to electronically sign and accept the terms of this lease agreement. By signing, both parties acknowledge their understanding and agreement to the terms outlined herein</span></p>"
+    }
+},
+{
+    "model": "people.tenant",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T12:29:57.199Z",
+        "updated_at": "2023-11-02T12:29:57.199Z",
+        "subscription": 1,
+        "first_name": "Andrew",
+        "last_name": "Finley",
+        "email": "aprilhill@example.org",
+        "phone_number": "+12061842215159",
+        "lease": 1,
+        "user": [
+            "designdigo127@gmail.com"
+        ]
+    }
+},
+{
+    "model": "people.tenant",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T12:30:03.712Z",
+        "updated_at": "2023-11-02T12:30:03.712Z",
+        "subscription": 1,
+        "first_name": "Kylie",
+        "last_name": "Taylor",
+        "email": "chapmandana@example.org",
+        "phone_number": "+15122720719426",
+        "lease": 2,
+        "user": [
+            "designdigo127@gmail.com"
+        ]
+    }
+},
+{
+    "model": "people.tenant",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T12:30:04.569Z",
+        "updated_at": "2023-11-02T12:30:04.569Z",
+        "subscription": 1,
+        "first_name": "Ryan",
+        "last_name": "Cortez",
+        "email": "zacharyrussell@example.net",
+        "phone_number": "+10412577558687",
+        "lease": 3,
+        "user": [
+            "designdigo127@gmail.com"
+        ]
+    }
+},
+{
+    "model": "people.tenantupcomingactivity",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T12:54:49.138Z",
+        "updated_at": "2023-11-02T12:57:28.232Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Mention put eat on son standard dream.",
+        "date": "1972-05-16",
+        "start_time": "13:58:05",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": false,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.tenantupcomingactivity",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:00:56.196Z",
+        "updated_at": "2023-11-02T13:00:56.196Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Mind north country personal skill catch. Plant price special coach.\nScience company trade agency late organization throughout. Challenge more education tend citizen trip safe.",
+        "date": "1972-08-07",
+        "start_time": "12:24:48",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": false,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.tenantupcomingactivity",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:02:12.196Z",
+        "updated_at": "2023-11-02T13:02:12.196Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Mother history former eight feel seek. Relationship way claim religious movie finish may. Argue black condition.\nName page human support. Congress standard federal western ball meet course.",
+        "date": "2005-10-20",
+        "start_time": "20:55:59",
+        "end_time": null,
+        "label": 2,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": false,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.tenantattachment",
+    "pk": 1,
+    "fields": {
+        "name": "Structure society win could.",
+        "file": "hour.html",
+        "file_type": "txt",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": null,
+        "created_at": "2023-11-02T13:03:12.796Z",
+        "updated_at": "2023-11-02T13:04:25.628Z",
+        "subscription": 1,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.tenantattachment",
+    "pk": 2,
+    "fields": {
+        "name": "Various world light.",
+        "file": "skill.odt",
+        "file_type": "csv",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": null,
+        "created_at": "2023-11-02T13:03:13.836Z",
+        "updated_at": "2023-11-02T13:04:18.674Z",
+        "subscription": 1,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.tenantattachment",
+    "pk": 3,
+    "fields": {
+        "name": "Send item some mission pass.",
+        "file": "apply.csv",
+        "file_type": "css",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": null,
+        "created_at": "2023-11-02T13:03:14.726Z",
+        "updated_at": "2023-11-02T13:04:12.317Z",
+        "subscription": 1,
+        "tenant": 1
+    }
+},
+{
+    "model": "people.vendortype",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.635Z",
+        "updated_at": "2023-10-05T16:14:16.635Z",
+        "subscription": 1,
+        "name": "Robinson-Knight",
+        "description": "Might capital kitchen. Pay senior plan space choice might it. Show them change trip letter appear. Beautiful along table."
+    }
+},
+{
+    "model": "people.vendortype",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.637Z",
+        "updated_at": "2023-10-05T16:14:16.637Z",
+        "subscription": 1,
+        "name": "Lewis-Murphy",
+        "description": "Somebody one scientist tax media production. Yeah bit grow plant yes stop our matter."
+    }
+},
+{
+    "model": "people.vendortype",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.839Z",
+        "updated_at": "2023-10-05T16:14:16.839Z",
+        "subscription": 1,
+        "name": "Manufacturing engineer",
+        "description": "Language quality wonder drug eight check anyone. Space stuff response through agent.\nNewspaper claim since. Imagine share do police fall positive. Itself property sure vote."
+    }
+},
+{
+    "model": "people.vendortype",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.858Z",
+        "updated_at": "2023-10-05T16:14:16.858Z",
+        "subscription": 1,
+        "name": "Audiological scientist",
+        "description": "Religious front billion particular society voice director. Likely property where already. Relationship give wide though glass create.\nTheir product effort people. Material subject program."
+    }
+},
+{
+    "model": "people.vendortype",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.861Z",
+        "updated_at": "2023-10-05T16:14:16.861Z",
+        "subscription": 1,
+        "name": "Chief Marketing Officer",
+        "description": "Provide involve memory test camera. Word analysis success nor defense friend. Because still ground ask their. Campaign attack ever."
+    }
+},
+{
+    "model": "people.vendor",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.638Z",
+        "updated_at": "2023-10-05T16:14:16.638Z",
+        "subscription": 1,
+        "first_name": "Roy",
+        "last_name": "Moore",
+        "company_name": "Rodriguez, Sandoval and Burns",
+        "use_company_name_as_display_name": false,
+        "vendor_type": 1,
+        "gl_account": "644426725152",
+        "personal_contact_numbers": "[\"+1-522-025-7012x174\"]",
+        "business_contact_numbers": "[\"175-576-3043x6945\"]",
+        "personal_emails": "[\"christinavega@example.com\"]",
+        "business_emails": "[\"bdavidson@example.org\"]",
+        "website": "http://white.com/",
+        "insurance_provide_name": "Ibarra-Guzman",
+        "insurance_policy_number": "809469957136",
+        "insurance_expiry_date": "1973-12-13",
+        "tax_identity_type": "EIN",
+        "tax_payer_id": "274"
+    }
+},
+{
+    "model": "people.vendor",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-15T08:30:45.123Z",
+        "updated_at": "2023-11-20T14:22:30.567Z",
+        "subscription": 1,
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "company_name": "Smith & Co.",
+        "use_company_name_as_display_name": true,
+        "vendor_type": 2,
+        "gl_account": "123456789",
+        "personal_contact_numbers": "[\"123-456-7890\"]",
+        "business_contact_numbers": "[\"987-654-3210\"]",
+        "personal_emails": "[\"michael.brown@example.com\"]",
+        "business_emails": "[\"michael@smithco.com\"]",
+        "website": "https://www.smithco.com/",
+        "insurance_provide_name": "Johnson Insurance Services",
+        "insurance_policy_number": "987654321",
+        "insurance_expiry_date": "2024-12-31",
+        "tax_identity_type": "SSN",
+        "tax_payer_id": "555-55-5555"
+    }
+},
+{
+    "model": "people.vendor",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-10T12:45:30.987Z",
+        "updated_at": "2023-11-18T16:10:15.789Z",
+        "subscription": 1,
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "company_name": "Johnson Enterprises",
+        "use_company_name_as_display_name": true,
+        "vendor_type": 3,
+        "gl_account": "987654321",
+        "personal_contact_numbers": "[\"555-555-5555\"]",
+        "business_contact_numbers": "[\"123-123-1234\"]",
+        "personal_emails": "[\"emma.johnson@example.com\"]",
+        "business_emails": "[\"contact@johnsonent.com\"]",
+        "website": "https://www.johnsonent.com/",
+        "insurance_provide_name": "Smith Insurance Agency",
+        "insurance_policy_number": "123456789",
+        "insurance_expiry_date": "2024-11-30",
+        "tax_identity_type": "EIN",
+        "tax_payer_id": "987-65-4321"
+    }
+},
+{
+    "model": "people.vendor",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-20T09:15:20.456Z",
+        "updated_at": "2023-11-25T18:55:40.234Z",
+        "subscription": 1,
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "company_name": "Davis Corp.",
+        "use_company_name_as_display_name": true,
+        "vendor_type": 4,
+        "gl_account": "111222333",
+        "personal_contact_numbers": "[\"555-123-7890\"]",
+        "business_contact_numbers": "[\"987-987-1234\"]",
+        "personal_emails": "[\"sophia.davis@example.com\"]",
+        "business_emails": "[\"contact@daviscorp.com\"]",
+        "website": "https://www.daviscorp.com/",
+        "insurance_provide_name": "Brown Insurance Solutions",
+        "insurance_policy_number": "555555555",
+        "insurance_expiry_date": "2024-10-31",
+        "tax_identity_type": "EIN",
+        "tax_payer_id": "123-45-6789"
+    }
+},
+{
+    "model": "people.vendor",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-12T14:55:10.654Z",
+        "updated_at": "2023-11-23T11:20:25.789Z",
+        "subscription": 1,
+        "first_name": "Ella",
+        "last_name": "Gonzalez",
+        "company_name": "Gonzalez Group",
+        "use_company_name_as_display_name": true,
+        "vendor_type": 5,
+        "gl_account": "999888777",
+        "personal_contact_numbers": "[\"555-987-6543\"]",
+        "business_contact_numbers": "[\"123-456-7890\"]",
+        "personal_emails": "[\"ella.gonzalez@example.com\"]",
+        "business_emails": "[\"contact@gonzalezgroup.com\"]",
+        "website": "https://www.gonzalezgroup.com/",
+        "insurance_provide_name": "Davis Insurance Agency",
+        "insurance_policy_number": "777777777",
+        "insurance_expiry_date": "2024-09-30",
+        "tax_identity_type": "SSN",
+        "tax_payer_id": "999-99-9999"
+    }
+},
+{
+    "model": "people.vendoraddress",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:14:17.526Z",
+        "updated_at": "2023-11-02T13:14:17.526Z",
+        "subscription": 1,
+        "street_address": "11813 Johnson Shore Suite 937",
+        "city": "Lake Cameron",
+        "state": "Missouri",
+        "country": "Turks and Caicos Islands",
+        "zip": "58206",
+        "vendor": 1
+    }
+},
+{
+    "model": "people.vendoraddress",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:15:10.634Z",
+        "updated_at": "2023-11-02T13:15:10.634Z",
+        "subscription": 1,
+        "street_address": "8447 Moss Crossroad",
+        "city": "Tannerchester",
+        "state": "New Hampshire",
+        "country": "Taiwan",
+        "zip": "73568",
+        "vendor": 2
+    }
+},
+{
+    "model": "people.vendoraddress",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:15:14.477Z",
+        "updated_at": "2023-11-02T13:15:14.477Z",
+        "subscription": 1,
+        "street_address": "340 Erika Way",
+        "city": "Jerrychester",
+        "state": "Alaska",
+        "country": "China",
+        "zip": "27630",
+        "vendor": 3
+    }
+},
+{
+    "model": "people.vendoraddress",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-03T04:42:51.007Z",
+        "updated_at": "2023-12-03T04:42:51.007Z",
+        "subscription": 1,
+        "street_address": "JMM Technologies, Mubashir PLaza, near KIPS Academy, Supply Bazar, Abbottabad",
+        "city": "Abbottabad",
+        "state": "KPK",
+        "country": "PK",
+        "zip": "25000",
+        "vendor": 5
+    }
+},
+{
+    "model": "people.vendorattachment",
+    "pk": 1,
+    "fields": {
+        "name": "Form PM business seek.",
+        "file": "same.png",
+        "file_type": "jpeg",
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:15:51.856Z",
+        "updated_at": "2023-11-02T13:15:51.856Z",
+        "subscription": 1,
+        "vendor": 1
+    }
+},
+{
+    "model": "people.vendorattachment",
+    "pk": 2,
+    "fields": {
+        "name": "Choose bag perhaps watch.",
+        "file": "event.tiff",
+        "file_type": "odt",
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:03.611Z",
+        "updated_at": "2023-11-02T13:16:03.611Z",
+        "subscription": 1,
+        "vendor": 2
+    }
+},
+{
+    "model": "people.vendorattachment",
+    "pk": 3,
+    "fields": {
+        "name": "Nearly third hundred go.",
+        "file": "down.avi",
+        "file_type": "gif",
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:04.966Z",
+        "updated_at": "2023-11-02T13:16:04.966Z",
+        "subscription": 1,
+        "vendor": 3
+    }
+},
+{
+    "model": "people.ownerupcomingactivity",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:17:43.556Z",
+        "updated_at": "2023-11-02T13:17:43.556Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Design ground evening money indeed. Reflect seek where air present.\nEnvironmental ground past during high less hair. Wind small that letter bank edge make.",
+        "date": "2015-03-18",
+        "start_time": "10:19:35",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "owner": 1
+    }
+},
+{
+    "model": "people.ownerupcomingactivity",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:19:08.846Z",
+        "updated_at": "2023-11-02T13:19:08.846Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "Someone offer traditional clear high. Soon finish reality skin public shake build. Network case section money feeling paper financial.",
+        "date": "1999-04-28",
+        "start_time": "02:22:44",
+        "end_time": null,
+        "label": 2,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": false,
+        "owner": 1
+    }
+},
+{
+    "model": "people.ownerupcomingactivity",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:19:13.126Z",
+        "updated_at": "2023-11-02T13:19:13.126Z",
+        "subscription": 1,
+        "title": "Task",
+        "description": "End choice course best he. Me actually suggest very. Relationship friend among.\nAffect step Congress training course.\nSerious simply dream fine you executive. Energy represent positive upon.",
+        "date": "2009-10-28",
+        "start_time": "13:11:22",
+        "end_time": null,
+        "label": 1,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "status": true,
+        "owner": 1
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:36.296Z",
+        "updated_at": "2023-11-02T13:16:36.296Z",
+        "subscription": 1,
+        "first_name": "Matthew",
+        "last_name": "English",
+        "company_name": "strategy",
+        "personal_contact_numbers": "[\"+18426710127790\"]",
+        "company_contact_numbers": "[\"+11384318492135\"]",
+        "personal_emails": "[\"zburton@example.com\"]",
+        "company_emails": "[\"cevans@example.com\"]",
+        "street_address": "31219 Phillip Corner Apt. 796",
+        "city": "Maryberg",
+        "state": "Oklahoma",
+        "zip": "48433",
+        "country": "United Arab Emirates",
+        "tax_payer": "Janet",
+        "tax_payer_id": "796",
+        "bank_account_title": "Michele",
+        "bank_name": "star",
+        "bank_branch": "West Mathewberg",
+        "bank_routing_number": "163",
+        "bank_account_number": "407",
+        "notes": "Tax not challenge ok note when pattern close. Series off food smile science. Give black class enjoy chair fish.",
+        "is_company_name_as_tax_payer": false,
+        "is_use_as_display_name": false
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:37.496Z",
+        "updated_at": "2023-11-02T13:16:37.496Z",
+        "subscription": 1,
+        "first_name": "Ana",
+        "last_name": "Hall",
+        "company_name": "break",
+        "personal_contact_numbers": "[\"+11440706087645\"]",
+        "company_contact_numbers": "[\"+12206711227027\"]",
+        "personal_emails": "[\"rharris@example.com\"]",
+        "company_emails": "[\"thansen@example.com\"]",
+        "street_address": "0451 Andrea Field",
+        "city": "South Janeberg",
+        "state": "Utah",
+        "zip": "65518",
+        "country": "Antarctica (the territory South of 60 deg S)",
+        "tax_payer": "Kelly",
+        "tax_payer_id": "796",
+        "bank_account_title": "Alan",
+        "bank_name": "something",
+        "bank_branch": "Lake Brandyside",
+        "bank_routing_number": "163",
+        "bank_account_number": "407",
+        "notes": "Return soldier draw through. Course necessary foreign last. Oil election back world question western environmental.\nEasy piece land only religious attack. While cut lead feel worker.",
+        "is_company_name_as_tax_payer": true,
+        "is_use_as_display_name": false
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:38.127Z",
+        "updated_at": "2023-11-02T13:16:38.127Z",
+        "subscription": 1,
+        "first_name": "Laura",
+        "last_name": "Rodriguez",
+        "company_name": "condition",
+        "personal_contact_numbers": "[\"+15106155140695\"]",
+        "company_contact_numbers": "[\"+18382380276080\"]",
+        "personal_emails": "[\"monicalawrence@example.com\"]",
+        "company_emails": "[\"anthony06@example.org\"]",
+        "street_address": "0410 Angela Curve Apt. 269",
+        "city": "East Brianna",
+        "state": "Utah",
+        "zip": "87866",
+        "country": "Russian Federation",
+        "tax_payer": "Paul",
+        "tax_payer_id": "796",
+        "bank_account_title": "Brittany",
+        "bank_name": "day",
+        "bank_branch": "Laceyport",
+        "bank_routing_number": "163",
+        "bank_account_number": "407",
+        "notes": "Anyone perhaps lot begin standard production. Player one rate response. Agency example theory reduce two conference student.",
+        "is_company_name_as_tax_payer": true,
+        "is_use_as_display_name": true
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:38.731Z",
+        "updated_at": "2023-11-02T13:16:38.731Z",
+        "subscription": 1,
+        "first_name": "Sheila",
+        "last_name": "Osborne",
+        "company_name": "food",
+        "personal_contact_numbers": "[\"+19643789149562\"]",
+        "company_contact_numbers": "[\"+18558814918632\"]",
+        "personal_emails": "[\"nealmatthew@example.org\"]",
+        "company_emails": "[\"wshah@example.net\"]",
+        "street_address": "21782 Adam Unions",
+        "city": "West Catherinehaven",
+        "state": "Maryland",
+        "zip": "94219",
+        "country": "Greece",
+        "tax_payer": "Stephen",
+        "tax_payer_id": "796",
+        "bank_account_title": "Leonard",
+        "bank_name": "popular",
+        "bank_branch": "Thomashaven",
+        "bank_routing_number": "163",
+        "bank_account_number": "407",
+        "notes": "Condition no everybody speak yard. Learn piece consumer according firm song.\nTask us by tonight oil fill. At require size east join improve subject. Stuff operation way suggest thing staff site over.",
+        "is_company_name_as_tax_payer": false,
+        "is_use_as_display_name": true
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-11-02T13:16:39.176Z",
+        "updated_at": "2023-11-02T13:16:39.176Z",
+        "subscription": 1,
+        "first_name": "Christine",
+        "last_name": "Jones",
+        "company_name": "thus",
+        "personal_contact_numbers": "[\"+15528352566322\"]",
+        "company_contact_numbers": "[\"+11533996822941\"]",
+        "personal_emails": "[\"mejiastephen@example.net\"]",
+        "company_emails": "[\"james68@example.net\"]",
+        "street_address": "873 Reyes Road",
+        "city": "West James",
+        "state": "Illinois",
+        "zip": "51886",
+        "country": "Montserrat",
+        "tax_payer": "Timothy",
+        "tax_payer_id": "796",
+        "bank_account_title": "Jonathan",
+        "bank_name": "finally",
+        "bank_branch": "Cartershire",
+        "bank_routing_number": "163",
+        "bank_account_number": "407",
+        "notes": "Campaign million pick hard task key lay. Bank no wait rate per clearly.\nDog sport wish stage especially. Campaign firm street go.\nDifferent item child offer support.\nAgency leg weight.",
+        "is_company_name_as_tax_payer": false,
+        "is_use_as_display_name": false
+    }
+},
+{
+    "model": "people.owner",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T21:41:18.750Z",
+        "updated_at": "2023-12-02T21:41:18.750Z",
+        "subscription": 1,
+        "first_name": "Akhtar",
+        "last_name": "Khan",
+        "company_name": "Any company",
+        "personal_contact_numbers": "[\"+923345666787\"]",
+        "company_contact_numbers": "[\"+923345677856\"]",
+        "personal_emails": "[\"owner@gmail.cm\"]",
+        "company_emails": "[\"example@gmail.com\"]",
+        "street_address": "JMM Technologies, Mubashir PLaza, near KIPS Academy, Supply Bazar, Abbottabad",
+        "city": "Abbottabad",
+        "state": "KPK",
+        "zip": "25000",
+        "country": "PK",
+        "tax_payer": "Any company",
+        "tax_payer_id": "2342353432",
+        "bank_account_title": "Example title",
+        "bank_name": "Habib Bank",
+        "bank_branch": "DK 1",
+        "bank_routing_number": "2342453523",
+        "bank_account_number": "98234253374823423",
+        "notes": "Any notes",
+        "is_company_name_as_tax_payer": true,
+        "is_use_as_display_name": false
+    }
+},
+{
+    "model": "maintenance.servicerequest",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T22:09:05.670Z",
+        "updated_at": "2023-12-02T22:09:05.670Z",
+        "subscription": 1,
+        "unit": 1,
+        "order_type": "INTERNAL",
+        "permission_to_enter": true,
+        "additional_information_for_entry": "No details",
+        "priority": "LOW",
+        "subject": "",
+        "description": "No description"
+    }
+},
+{
+    "model": "maintenance.servicerequest",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:57:13.002Z",
+        "updated_at": "2023-12-04T22:57:13.002Z",
+        "subscription": 1,
+        "unit": 1,
+        "order_type": "RESIDENT",
+        "permission_to_enter": false,
+        "additional_information_for_entry": "No additional details required",
+        "priority": "LOW",
+        "subject": "",
+        "description": "There is some sort of issue at the unit 1"
+    }
+},
+{
+    "model": "maintenance.servicerequest",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.208Z",
+        "updated_at": "2023-10-05T16:14:17.208Z",
+        "subscription": 1,
+        "unit": 3,
+        "order_type": "UNIT_TURN",
+        "permission_to_enter": true,
+        "additional_information_for_entry": "This is some additional information for service request 3. The unit owner has reported issues with plumbing and heating.",
+        "priority": "NORMAL",
+        "subject": "",
+        "description": "Service request for unit 3 includes plumbing and heating issues. Please address them promptly."
+    }
+},
+{
+    "model": "maintenance.servicerequest",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.470Z",
+        "updated_at": "2023-10-05T16:14:17.470Z",
+        "subscription": 1,
+        "unit": 4,
+        "order_type": "UNIT_TURN",
+        "permission_to_enter": true,
+        "additional_information_for_entry": "This is some additional information for service request 4. The unit owner has requested a routine inspection.",
+        "priority": "NORMAL",
+        "subject": "",
+        "description": "Unit 4 requires a routine inspection. Please schedule it and provide a detailed report."
+    }
+},
+{
+    "model": "maintenance.workorder",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-03T02:40:46.134Z",
+        "updated_at": "2023-12-03T02:40:46.134Z",
+        "subscription": 1,
+        "is_recurring": true,
+        "cycle": "MONTHLY",
+        "status": "OPEN",
+        "order_type": "RESIDENT",
+        "job_description": "Job description will go here.",
+        "vendor_instructions": "Vendor instructions will go here",
+        "vendor_trade": null,
+        "vendor_type": 3,
+        "vendor": 2,
+        "email_vendor": false,
+        "request_receipt": false,
+        "assign_to": [
+            "demo@ppm.com"
+        ],
+        "owner_approved": true,
+        "follow_up_date": "2023-12-04",
+        "service_request": 2
+    }
+},
+{
+    "model": "maintenance.workorder",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:59:22.670Z",
+        "updated_at": "2023-12-04T22:59:22.670Z",
+        "subscription": 1,
+        "is_recurring": false,
+        "cycle": null,
+        "status": "OPEN",
+        "order_type": "RESIDENT",
+        "job_description": "Please bring some inventory items required for this request",
+        "vendor_instructions": "No instructions",
+        "vendor_trade": null,
+        "vendor_type": 5,
+        "vendor": 5,
+        "email_vendor": true,
+        "request_receipt": false,
+        "assign_to": [
+            "designdigo127@gmail.com"
+        ],
+        "owner_approved": false,
+        "follow_up_date": "2023-12-07",
+        "service_request": 3
+    }
+},
+{
+    "model": "maintenance.workorder",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.472Z",
+        "updated_at": "2023-10-05T16:14:17.472Z",
+        "subscription": 1,
+        "is_recurring": false,
+        "cycle": "MONTHLY",
+        "status": "ASSIGNED",
+        "order_type": "UNIT_TURN",
+        "job_description": "Repair the electrical outlets in unit 4. Several outlets are not functioning.",
+        "vendor_instructions": "Identify and repair any faulty electrical outlets in the unit. Ensure all outlets are working properly before completion.",
+        "vendor_trade": "CARPENTER",
+        "vendor_type": 4,
+        "vendor": 4,
+        "email_vendor": true,
+        "request_receipt": true,
+        "assign_to": [
+            "admin@ppm.com"
+        ],
+        "owner_approved": false,
+        "follow_up_date": "2018-03-14",
+        "service_request": 4
+    }
+},
+{
+    "model": "maintenance.workorder",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.843Z",
+        "updated_at": "2023-10-05T16:14:17.843Z",
+        "subscription": 1,
+        "is_recurring": false,
+        "cycle": "MONTHLY",
+        "status": "ASSIGNED",
+        "order_type": "UNIT_TURN",
+        "job_description": "Install a new ceiling fan in unit 6. The existing fan is malfunctioning.",
+        "vendor_instructions": "Remove the existing ceiling fan and install a new one. Ensure it operates smoothly and is securely mounted.",
+        "vendor_trade": "CARPENTER",
+        "vendor_type": 1,
+        "vendor": 1,
+        "email_vendor": true,
+        "request_receipt": true,
+        "assign_to": [
+            "admin@test.com"
+        ],
+        "owner_approved": false,
+        "follow_up_date": "2018-03-14",
+        "service_request": 1
+    }
+},
+{
+    "model": "maintenance.workorder",
+    "pk": 7,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:18.034Z",
+        "updated_at": "2023-10-05T16:14:18.034Z",
+        "subscription": 1,
+        "is_recurring": false,
+        "cycle": "MONTHLY",
+        "status": "ASSIGNED",
+        "order_type": "UNIT_TURN",
+        "job_description": "Inspect and repair a faulty door in unit 7. Ensure it operates smoothly and replace any damaged parts.",
+        "vendor_instructions": "Please focus on the door repair. Use high-quality materials for any replacements. Keep the tenant informed of the progress.",
+        "vendor_trade": "CARPENTER",
+        "vendor_type": 2,
+        "vendor": 2,
+        "email_vendor": true,
+        "request_receipt": true,
+        "assign_to": [
+            "admin@test.com"
+        ],
+        "owner_approved": false,
+        "follow_up_date": "2018-03-14",
+        "service_request": 2
+    }
+},
+{
+    "model": "maintenance.inspection",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.585Z",
+        "updated_at": "2023-10-05T16:14:16.585Z",
+        "subscription": 1,
+        "name": "left",
+        "date": "1974-08-23",
+        "unit": 1
+    }
+},
+{
+    "model": "maintenance.inspection",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.598Z",
+        "updated_at": "2023-10-05T16:14:16.598Z",
+        "subscription": 1,
+        "name": "left",
+        "date": "1974-08-23",
+        "unit": 2
+    }
+},
+{
+    "model": "maintenance.inspection",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.854Z",
+        "updated_at": "2023-10-05T16:14:16.854Z",
+        "subscription": 1,
+        "name": "left",
+        "date": "1974-08-23",
+        "unit": 3
+    }
+},
+{
+    "model": "maintenance.area",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.587Z",
+        "updated_at": "2023-10-05T16:14:16.587Z",
+        "subscription": 1,
+        "name": "relate",
+        "inspection": 1
+    }
+},
+{
+    "model": "maintenance.area",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.599Z",
+        "updated_at": "2023-10-05T16:14:16.599Z",
+        "subscription": 1,
+        "name": "relate",
+        "inspection": 2
+    }
+},
+{
+    "model": "maintenance.area",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:02:14.988Z",
+        "updated_at": "2023-12-04T23:02:14.988Z",
+        "subscription": 1,
+        "name": "Lounge",
+        "inspection": 1
+    }
+},
+{
+    "model": "maintenance.areaitem",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.600Z",
+        "updated_at": "2023-10-05T16:14:16.600Z",
+        "subscription": 1,
+        "name": "now",
+        "condition": "OKAY",
+        "area": 1
+    }
+},
+{
+    "model": "maintenance.areaitem",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:02:28.281Z",
+        "updated_at": "2023-12-04T23:02:28.281Z",
+        "subscription": 1,
+        "name": "Wall Paint",
+        "condition": "OKAY",
+        "area": 3
+    }
+},
+{
+    "model": "maintenance.areaitem",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:02:35.809Z",
+        "updated_at": "2023-12-04T23:02:35.809Z",
+        "subscription": 1,
+        "name": "Floor",
+        "condition": "NOT_OKAY",
+        "area": 3
+    }
+},
+{
+    "model": "maintenance.areaitem",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:02:59.705Z",
+        "updated_at": "2023-12-04T23:02:59.705Z",
+        "subscription": 1,
+        "name": "Walls Paint",
+        "condition": "NOT_OKAY",
+        "area": 2
+    }
+},
+{
+    "model": "maintenance.areaitem",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:03:07.406Z",
+        "updated_at": "2023-12-04T23:03:07.406Z",
+        "subscription": 1,
+        "name": "Floor",
+        "condition": "OKAY",
+        "area": 2
+    }
+},
+{
+    "model": "maintenance.project",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.030Z",
+        "updated_at": "2023-10-05T16:14:17.030Z",
+        "subscription": 1,
+        "name": "Renovation of Building A",
+        "description": "Planning and execution of renovation project for Building A. Scope includes interior and exterior improvements.",
+        "status": "IN_PROGRESS",
+        "parent_property": 1,
+        "select_all_units": false,
+        "budget": "550000.00",
+        "gl_account": "132089068991",
+        "start_date": "2023-03-15",
+        "end_date": "2023-12-31",
+        "units": []
+    }
+},
+{
+    "model": "maintenance.project",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.038Z",
+        "updated_at": "2023-10-05T16:14:17.038Z",
+        "subscription": 1,
+        "name": "Construction of Playground",
+        "description": "Planning and construction of a new playground area for the community. Includes play structures, landscaping, and seating areas.",
+        "status": "IN_PROGRESS",
+        "parent_property": 2,
+        "select_all_units": false,
+        "budget": "350000.00",
+        "gl_account": "132089068991",
+        "start_date": "2023-04-01",
+        "end_date": "2023-10-31",
+        "units": []
+    }
+},
+{
+    "model": "maintenance.project",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.256Z",
+        "updated_at": "2023-10-05T16:14:17.256Z",
+        "subscription": 1,
+        "name": "Roof Repairs for Building C",
+        "description": "Roof repair project for Building C. Identifying and fixing leaks and damages to ensure the building's integrity.",
+        "status": "IN_PROGRESS",
+        "parent_property": 3,
+        "select_all_units": false,
+        "budget": "75000.00",
+        "gl_account": "132089068991",
+        "start_date": "2023-05-10",
+        "end_date": "2023-09-30",
+        "units": []
+    }
+},
+{
+    "model": "maintenance.project",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-03T04:30:21.824Z",
+        "updated_at": "2023-12-03T04:30:21.824Z",
+        "subscription": 1,
+        "name": "Some Project",
+        "description": "Project detail goes here",
+        "status": "PENDING",
+        "parent_property": 1,
+        "select_all_units": false,
+        "budget": "200.00",
+        "gl_account": "15454589 98598956 6566",
+        "start_date": "2023-12-04",
+        "end_date": null,
+        "units": []
+    }
+},
+{
+    "model": "maintenance.project",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:04:05.663Z",
+        "updated_at": "2023-12-04T23:04:57.474Z",
+        "subscription": 1,
+        "name": "Any Sort of Project",
+        "description": "We would be building a new 2 bed apartment",
+        "status": "COMPLETED",
+        "parent_property": 2,
+        "select_all_units": false,
+        "budget": "30000.00",
+        "gl_account": "15454589 98598956 6566",
+        "start_date": "2023-12-05",
+        "end_date": "2023-12-04",
+        "units": []
+    }
+},
+{
+    "model": "maintenance.labor",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.024Z",
+        "updated_at": "2023-10-05T16:14:17.024Z",
+        "subscription": 1,
+        "title": "form",
+        "date": "2005-06-07",
+        "hours": 95,
+        "description": "Factor couple sound level still officer.\nDifficult learn become range director be time wind. According speech science paper necessary. Sort improve tonight special.",
+        "work_order": 1
+    }
+},
+{
+    "model": "maintenance.purchaseorder",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:42:25.872Z",
+        "updated_at": "2023-12-04T20:42:25.872Z",
+        "subscription": 1,
+        "vendor": 5,
+        "description": "Deliver the items at the selected unit-Property",
+        "required_by_date": "2023-12-21",
+        "tax": null,
+        "tax_charge_type": null,
+        "shipping": null,
+        "shipping_charge_type": null,
+        "discount": null,
+        "discount_charge_type": null,
+        "notes": ""
+    }
+},
+{
+    "model": "maintenance.purchaseorder",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:06:47.422Z",
+        "updated_at": "2023-12-04T23:06:47.422Z",
+        "subscription": 1,
+        "vendor": 5,
+        "description": "Some desc",
+        "required_by_date": "2023-12-05",
+        "tax": null,
+        "tax_charge_type": null,
+        "shipping": "100.00",
+        "shipping_charge_type": "FLAT",
+        "discount": "10.00",
+        "discount_charge_type": "PERCENT",
+        "notes": ""
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-10-05T16:14:16.841Z",
+        "updated_at": "2023-12-05T04:07:54.408Z",
+        "subscription": 1,
+        "name": "Doors",
+        "item_type": 1,
+        "description": "Task spend despite painting fast. Director discussion eight that.\nAmong address cause Mrs politics receive include. Food sort would federal officer ready brother.",
+        "part_number": "2443",
+        "vendor": 1,
+        "quantity": 646132,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "36.90",
+        "location": 1,
+        "bin_or_shelf_number": "8785"
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-10-05T16:14:16.860Z",
+        "updated_at": "2023-12-05T04:08:56.683Z",
+        "subscription": 1,
+        "name": "Fans",
+        "item_type": 3,
+        "description": "Mention care third to light. Kitchen machine high. Pressure hand anyone around foreign learn after his. Base plan success shake nearly side ten.",
+        "part_number": "2443",
+        "vendor": 2,
+        "quantity": 646157,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "36.90",
+        "location": 1,
+        "bin_or_shelf_number": "8785"
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-10-05T16:14:17.247Z",
+        "updated_at": "2023-12-05T04:08:12.379Z",
+        "subscription": 1,
+        "name": "TV",
+        "item_type": 2,
+        "description": "President nothing eye. Mind far debate rule lawyer. Stop weight lot ready next.\nBorn family chair mean.",
+        "part_number": "2443",
+        "vendor": 3,
+        "quantity": 646157,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "36.90",
+        "location": 1,
+        "bin_or_shelf_number": "8785"
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-12-04T20:41:10.195Z",
+        "updated_at": "2024-02-06T10:18:43.262Z",
+        "subscription": 1,
+        "name": "20 volt Fan",
+        "item_type": 2,
+        "description": "A 20 volt light",
+        "part_number": "3",
+        "vendor": 5,
+        "quantity": 6,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "50.00",
+        "location": 2,
+        "bin_or_shelf_number": "5"
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-04T20:41:10.198Z",
+        "updated_at": "2024-02-06T10:18:43.268Z",
+        "subscription": 1,
+        "name": "Table",
+        "item_type": 1,
+        "description": "a wooden table",
+        "part_number": "3",
+        "vendor": 5,
+        "quantity": 9,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "60.00",
+        "location": 2,
+        "bin_or_shelf_number": "5"
+    }
+},
+{
+    "model": "maintenance.inventory",
+    "pk": 6,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-12-04T20:41:10.200Z",
+        "updated_at": "2023-12-04T20:43:29.025Z",
+        "subscription": 1,
+        "name": "10 Volts light",
+        "item_type": 2,
+        "description": "a ten volts light",
+        "part_number": "54",
+        "vendor": 5,
+        "quantity": 0,
+        "expense_account": "15454589 98598956 6566",
+        "cost": "20.00",
+        "location": 2,
+        "bin_or_shelf_number": "4"
+    }
+},
+{
+    "model": "maintenance.purchaseorderitem",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:17.488Z",
+        "updated_at": "2023-10-05T16:14:17.488Z",
+        "subscription": 1,
+        "inventory_item": 1,
+        "cost": "36.90",
+        "quantity": 15,
+        "purchase_order": 1
+    }
+},
+{
+    "model": "maintenance.purchaseorderitem",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:42:27.346Z",
+        "updated_at": "2023-12-04T20:42:27.346Z",
+        "subscription": 1,
+        "inventory_item": 5,
+        "cost": "60.00",
+        "quantity": 5,
+        "purchase_order": 1
+    }
+},
+{
+    "model": "maintenance.purchaseorderitem",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:06:47.961Z",
+        "updated_at": "2023-12-04T23:06:47.961Z",
+        "subscription": 1,
+        "inventory_item": 4,
+        "cost": "50.00",
+        "quantity": 1,
+        "purchase_order": 2
+    }
+},
+{
+    "model": "maintenance.purchaseorderitem",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:06:47.970Z",
+        "updated_at": "2023-12-04T23:06:47.970Z",
+        "subscription": 1,
+        "inventory_item": 6,
+        "cost": "20.00",
+        "quantity": 5,
+        "purchase_order": 2
+    }
+},
+{
+    "model": "maintenance.fixedasset",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:43:02.959Z",
+        "updated_at": "2023-12-04T20:43:02.959Z",
+        "subscription": 1,
+        "status": "installed",
+        "placed_in_service_date": "2023-12-05",
+        "warranty_expiration_date": "2024-01-31",
+        "unit": 3,
+        "inventory_item": 4,
+        "quantity": 4,
+        "cost": "50.00"
+    }
+},
+{
+    "model": "maintenance.fixedasset",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T20:43:29.023Z",
+        "updated_at": "2023-12-04T20:43:29.023Z",
+        "subscription": 1,
+        "status": "installed",
+        "placed_in_service_date": "2023-12-05",
+        "warranty_expiration_date": "2024-01-25",
+        "unit": 3,
+        "inventory_item": 5,
+        "quantity": 4,
+        "cost": "20.00"
+    }
+},
+{
+    "model": "communication.contact",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-10-05T16:04:00.416Z",
+        "updated_at": "2023-12-05T04:14:31.866Z",
+        "subscription": 1,
+        "name": "Karen Gonzalez",
+        "category": 1,
+        "primary_contact": "+995571013356",
+        "secondary_contact": "+995571208930",
+        "email": "echavez@example.net",
+        "website": "https://www.waters.com/",
+        "street_address": "08788 Bryant Key",
+        "display_to_tenants": true,
+        "selective": false
+    }
+},
+{
+    "model": "communication.contact",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:17:51.142Z",
+        "updated_at": "2023-12-04T23:17:51.142Z",
+        "subscription": 1,
+        "name": "Zia",
+        "category": 2,
+        "primary_contact": "+19523456663",
+        "secondary_contact": "",
+        "email": "uzia3277@gmail.com",
+        "website": "https://www.google.com/",
+        "street_address": "Any address",
+        "display_to_tenants": true,
+        "selective": false
+    }
+},
+{
+    "model": "communication.note",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-03T04:21:14.874Z",
+        "updated_at": "2023-12-03T04:21:28.265Z",
+        "subscription": 1,
+        "title": "Note",
+        "description": "Note description goes here...",
+        "associated_property": 1,
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "communication.note",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:04:01.280Z",
+        "updated_at": "2023-10-05T16:04:01.281Z",
+        "subscription": 1,
+        "title": "Michael Hernandez",
+        "description": "Method fear military movie foot tax senior. Economic able others another common recently. Beautiful much laugh forward east establish.\nAttack surface age. Him while something wait material.",
+        "associated_property": 2,
+        "tags": []
+    }
+},
+{
+    "model": "communication.noteattachment",
+    "pk": 1,
+    "fields": {
+        "name": "Kelly David",
+        "file": "eight.mov",
+        "file_type": "png",
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:04:01.272Z",
+        "updated_at": "2023-10-05T16:04:01.272Z",
+        "subscription": 1,
+        "note": 1
+    }
+},
+{
+    "model": "communication.announcement",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:04:00.380Z",
+        "updated_at": "2023-12-03T04:01:22.654Z",
+        "subscription": 1,
+        "title": "Sharon O'Connell",
+        "body": "<p>Trade yourself bring thank. Score middle for while say. Person necessary candidate he sell fish north. Security technology again under life case. Language base general speak his bag media.</p>",
+        "selection": "APSU",
+        "send_by_email": false,
+        "display_on_tenant_portal": false,
+        "display_date": "1993-01-20",
+        "expiry_date": "2023-10-05",
+        "properties": [],
+        "units": [
+            1
+        ]
+    }
+},
+{
+    "model": "communication.announcement",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-12-04T23:16:16.393Z",
+        "updated_at": "2023-12-04T23:16:16.393Z",
+        "subscription": 1,
+        "title": "Labors day",
+        "body": "<p>No maintenance request would be entertained due to labors day</p>",
+        "selection": "APAU",
+        "send_by_email": false,
+        "display_on_tenant_portal": true,
+        "display_date": "2023-12-05",
+        "expiry_date": "2023-12-05",
+        "properties": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "units": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "communication.announcementattachment",
+    "pk": 1,
+    "fields": {
+        "name": "Chad Wilson",
+        "file": "eight.mov",
+        "file_type": "png",
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:04:00.387Z",
+        "updated_at": "2023-10-05T16:04:00.387Z",
+        "subscription": 1,
+        "announcement": 1
+    }
+},
+{
+    "model": "communication.announcementattachment",
+    "pk": 2,
+    "fields": {
+        "name": "1",
+        "file": "announcements/JPG_20231204T231615600Z797115.jpg",
+        "file_type": "JPG",
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T23:16:18.851Z",
+        "updated_at": "2023-12-04T23:16:18.851Z",
+        "subscription": 1,
+        "announcement": 2
+    }
+},
+{
+    "model": "system_preferences.propertytype",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:30:59.984Z",
+        "updated_at": "2023-12-04T18:33:01.230Z",
+        "subscription": 1,
+        "name": "Luxury Apartments"
+    }
+},
+{
+    "model": "system_preferences.propertytype",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:33:09.848Z",
+        "updated_at": "2023-12-04T18:33:09.848Z",
+        "subscription": 1,
+        "name": "Virtual Properties"
+    }
+},
+{
+    "model": "system_preferences.propertytype",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T18:33:32.029Z",
+        "updated_at": "2023-12-04T18:33:32.029Z",
+        "subscription": 1,
+        "name": "Residential properties"
+    }
+},
+{
+    "model": "system_preferences.inventoryitemtype",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-10-05T16:14:16.831Z",
+        "updated_at": "2023-12-03T17:13:48.768Z",
+        "subscription": 1,
+        "name": "Wood"
+    }
+},
+{
+    "model": "system_preferences.inventoryitemtype",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:09:41.858Z",
+        "updated_at": "2023-12-02T20:09:41.858Z",
+        "subscription": 1,
+        "name": "Electronics"
+    }
+},
+{
+    "model": "system_preferences.inventoryitemtype",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "designdigo127@gmail.com"
+        ],
+        "modified_by": [
+            "designdigo127@gmail.com"
+        ],
+        "created_at": "2023-12-05T04:08:56.178Z",
+        "updated_at": "2023-12-05T04:08:56.178Z",
+        "subscription": 1,
+        "name": "Electrical"
+    }
+},
+{
+    "model": "system_preferences.tag",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.114Z",
+        "updated_at": "2023-10-06T16:48:21.114Z",
+        "subscription": 1,
+        "name": "Omar Olson"
+    }
+},
+{
+    "model": "system_preferences.tag",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:10:46.613Z",
+        "updated_at": "2023-12-02T20:10:46.613Z",
+        "subscription": 1,
+        "name": "Special"
+    }
+},
+{
+    "model": "system_preferences.tag",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:49:14.872Z",
+        "updated_at": "2023-12-02T20:49:14.872Z",
+        "subscription": 1,
+        "name": "Porche"
+    }
+},
+{
+    "model": "system_preferences.tag",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:27:29.700Z",
+        "updated_at": "2023-12-04T19:27:29.700Z",
+        "subscription": 1,
+        "name": "OneBed"
+    }
+},
+{
+    "model": "system_preferences.tag",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:39:13.150Z",
+        "updated_at": "2023-12-04T19:39:13.150Z",
+        "subscription": 1,
+        "name": "2BedApartments"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:33:11.946Z",
+        "updated_at": "2023-10-06T16:33:11.946Z",
+        "subscription": 1,
+        "name": "Juan Lang"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:40:58.140Z",
+        "updated_at": "2023-10-06T16:40:58.140Z",
+        "subscription": 1,
+        "name": "Derrick Williams"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:10:57.415Z",
+        "updated_at": "2023-12-02T20:10:57.415Z",
+        "subscription": 1,
+        "name": "Advertisement"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 4,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:06:35.075Z",
+        "updated_at": "2023-12-04T19:06:35.075Z",
+        "subscription": 1,
+        "name": "Posting on Media"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 5,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:19:07.415Z",
+        "updated_at": "2023-12-04T19:19:07.415Z",
+        "subscription": 1,
+        "name": "Applications review"
+    }
+},
+{
+    "model": "system_preferences.label",
+    "pk": 6,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T19:34:21.509Z",
+        "updated_at": "2023-12-04T19:34:21.509Z",
+        "subscription": 1,
+        "name": "Maintenance"
+    }
+},
+{
+    "model": "system_preferences.inventorylocation",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:14:16.836Z",
+        "updated_at": "2023-10-05T16:14:16.836Z",
+        "subscription": 1,
+        "name": "Castillo Islands"
+    }
+},
+{
+    "model": "system_preferences.inventorylocation",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:11:12.581Z",
+        "updated_at": "2023-12-02T20:11:12.581Z",
+        "subscription": 1,
+        "name": "Mall of Islamabad"
+    }
+},
+{
+    "model": "system_preferences.managementfee",
+    "pk": 1,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T10:39:56.635Z",
+        "updated_at": "2023-12-04T10:39:56.635Z",
+        "subscription": 1,
+        "fee": "5.00",
+        "fee_type": "BY_PERCENTAGE",
+        "previous_fee": "2406.87",
+        "previous_fee_type": "BY_PERCENTAGE",
+        "gl_account": "15454589 98598956 6566",
+        "status": "INACTIVE"
+    }
+},
+{
+    "model": "system_preferences.managementfee",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:31:16.131Z",
+        "updated_at": "2023-12-04T22:31:16.131Z",
+        "subscription": 1,
+        "fee": "100.00",
+        "fee_type": "FLAT_FEE",
+        "previous_fee": "5.00",
+        "previous_fee_type": "BY_PERCENTAGE",
+        "gl_account": "15454589 98598956 6566",
+        "status": "INACTIVE"
+    }
+},
+{
+    "model": "system_preferences.managementfee",
+    "pk": 3,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-04T22:31:29.629Z",
+        "updated_at": "2023-12-04T22:31:29.629Z",
+        "subscription": 1,
+        "fee": "10.00",
+        "fee_type": "BY_PERCENTAGE",
+        "previous_fee": "100.00",
+        "previous_fee_type": "FLAT_FEE",
+        "gl_account": "15454589 98598956 6566",
+        "status": "ACTIVE"
+    }
+},
+{
+    "model": "system_preferences.managementfee",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.146Z",
+        "updated_at": "2023-10-06T16:48:21.146Z",
+        "subscription": 1,
+        "fee": "2406.87",
+        "fee_type": "BY_PERCENTAGE",
+        "previous_fee": "2406.87",
+        "previous_fee_type": "BY_PERCENTAGE",
+        "gl_account": "779171224",
+        "status": "INACTIVE"
+    }
+},
+{
+    "model": "system_preferences.managementfee",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.152Z",
+        "updated_at": "2023-10-06T16:48:21.152Z",
+        "subscription": 1,
+        "fee": "2406.87",
+        "fee_type": "BY_PERCENTAGE",
+        "previous_fee": "2406.87",
+        "previous_fee_type": "BY_PERCENTAGE",
+        "gl_account": "779171224",
+        "status": "ACTIVE"
+    }
+},
+{
+    "model": "system_preferences.businessinformation",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-10-06T16:48:21.128Z",
+        "updated_at": "2023-12-11T10:20:35.760Z",
+        "subscription": 1,
+        "logo": "business-information/PNG_20231211T102024323Z815998.png",
+        "name": "Jimmy Reyes",
+        "description": "A reputable company specializing in technology solutions and innovation. We are committed to excellence and delivering cutting-edge products to our clients.",
+        "building_or_office_number": "0257",
+        "street": "208 George Brook Apt. 779",
+        "city": "Michaelfurt",
+        "postal_code": "31099",
+        "state": "GM",
+        "country": "Colombia",
+        "primary_email": "lisa.knapp@example.com",
+        "secondary_email": "contact@example.com",
+        "phone_number": "+16044011234",
+        "telephone_number": "",
+        "tax_identity_type": "SSN",
+        "tax_payer_id": "123456789"
+    }
+},
+{
+    "model": "system_preferences.businessinformation",
+    "pk": 2,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.135Z",
+        "updated_at": "2023-10-06T16:48:21.135Z",
+        "subscription": 1,
+        "logo": "https://www.martin.com/",
+        "name": "Stephen Williams",
+        "description": "A leading provider of innovative technology solutions. Our mission is to empower businesses with cutting-edge tools and services.",
+        "building_or_office_number": "0257",
+        "street": "208 George Brook Apt. 779",
+        "city": "Michaelfurt",
+        "postal_code": "31099",
+        "state": "GM",
+        "country": "Colombia",
+        "primary_email": "lisa.knapp@example.com",
+        "secondary_email": "contact@example.com",
+        "phone_number": "816-657-7940 x8005",
+        "telephone_number": "010-107-1908 x626",
+        "tax_identity_type": "TIN",
+        "tax_payer_id": "123456789"
+    }
+},
+{
+    "model": "system_preferences.businessinformation",
+    "pk": 3,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.141Z",
+        "updated_at": "2023-10-06T16:48:21.141Z",
+        "subscription": 1,
+        "logo": "http://mcdonald.biz/",
+        "name": "Michael Maddox",
+        "description": "A trusted partner for businesses seeking advanced technology solutions. Our dedication to quality sets us apart.",
+        "building_or_office_number": "0257",
+        "street": "208 George Brook Apt. 779",
+        "city": "Michaelfurt",
+        "postal_code": "31099",
+        "state": "GM",
+        "country": "Colombia",
+        "primary_email": "lisa.knapp@example.com",
+        "secondary_email": "contact@example.com",
+        "phone_number": "816-657-7940 x8005",
+        "telephone_number": "010-107-1908 x626",
+        "tax_identity_type": "TIN",
+        "tax_payer_id": "123456789"
+    }
+},
+{
+    "model": "system_preferences.businessinformation",
+    "pk": 4,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.147Z",
+        "updated_at": "2023-10-06T16:48:21.147Z",
+        "subscription": 1,
+        "logo": "http://www.goodwin.com/",
+        "name": "Teresa Tucker",
+        "description": "A company committed to driving innovation through technology. We provide tailor-made solutions for businesses.",
+        "building_or_office_number": "0257",
+        "street": "208 George Brook Apt. 779",
+        "city": "Michaelfurt",
+        "postal_code": "31099",
+        "state": "GM",
+        "country": "Colombia",
+        "primary_email": "lisa.knapp@example.com",
+        "secondary_email": "contact@example.com",
+        "phone_number": "816-657-7940 x8005",
+        "telephone_number": "010-107-1908 x626",
+        "tax_identity_type": "TIN",
+        "tax_payer_id": "123456789"
+    }
+},
+{
+    "model": "system_preferences.businessinformation",
+    "pk": 5,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-06T16:48:21.153Z",
+        "updated_at": "2023-10-06T16:48:21.153Z",
+        "subscription": 1,
+        "logo": "http://www.wallace.com/",
+        "name": "Tiffany Melendez",
+        "description": "A technology solutions provider with a strong focus on innovation and customer satisfaction.",
+        "building_or_office_number": "0257",
+        "street": "208 George Brook Apt. 779",
+        "city": "Michaelfurt",
+        "postal_code": "31099",
+        "state": "GM",
+        "country": "Colombia",
+        "primary_email": "lisa.knapp@example.com",
+        "secondary_email": "contact@example.com",
+        "phone_number": "816-657-7940 x8005",
+        "telephone_number": "010-107-1908 x626",
+        "tax_identity_type": "TIN",
+        "tax_payer_id": "123456789"
+    }
+},
+{
+    "model": "system_preferences.contactcategory",
+    "pk": 1,
+    "fields": {
+        "created_by": null,
+        "modified_by": null,
+        "created_at": "2023-10-05T16:04:00.411Z",
+        "updated_at": "2023-10-05T16:04:00.411Z",
+        "subscription": 1,
+        "name": "Normal Contacts"
+    }
+},
+{
+    "model": "system_preferences.contactcategory",
+    "pk": 2,
+    "fields": {
+        "created_by": [
+            "admin@ppm.com"
+        ],
+        "modified_by": [
+            "admin@ppm.com"
+        ],
+        "created_at": "2023-12-02T20:09:32.449Z",
+        "updated_at": "2023-12-02T20:09:32.449Z",
+        "subscription": 1,
+        "name": "Emergency Contacts"
+    }
+}
+]
